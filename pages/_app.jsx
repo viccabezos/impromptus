@@ -1,4 +1,5 @@
 import Footer from "../layout/footer/Footer";
+import DrawerNavbar from "../layout/navbar/DrawerNavbar";
 import Navbar from "../layout/navbar/Navbar";
 import NavBar2 from "../layout/navbar/NavBar2";
 import NavTest from "../layout/navbar/NavTest";
@@ -8,8 +9,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       {/* <Navbar /> */}
-      <NavTest />
+      {/* <NavTest /> */}
       {/* <NavBar2 /> */}
+      <DrawerNavbar />
       <Component {...pageProps} />
       <Footer />
     </>
