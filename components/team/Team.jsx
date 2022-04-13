@@ -2,7 +2,7 @@ import React from "react";
 
 function Team() {
   return (
-    <div className="p-8 bg-white dark:bg-gray-800 rounded-lg shadow">
+    <div className="p-8 bg-secondary rounded-xl shadow" data-theme="mytheme">
       <p className="text-center text-3xl font-bold text-gray-800 dark:text-white">
         Notre equipe
       </p>

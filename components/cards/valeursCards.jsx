@@ -2,10 +2,13 @@ import React from "react";
 
 function ValeursCards() {
   return (
-    <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800">
+    <div
+      class="sm:flex flex-wrap justify-center items-center text-center gap-8 py-10"
+      data-theme="mytheme"
+    >
+      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg bg-secondary-focus">
         <div class="flex-shrink-0">
-          <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+          <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
             <svg
               width="20"
               height="20"
@@ -26,9 +29,9 @@ function ValeursCards() {
           solutions relevant to your business.
         </p>
       </div>
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg bg-secondary-focus">
         <div class="flex-shrink-0">
-          <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+          <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
             <svg
               width="20"
               height="20"
@@ -49,9 +52,9 @@ function ValeursCards() {
           connection with your audience.
         </p>
       </div>
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg bg-secondary-focus">
         <div class="flex-shrink-0">
-          <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+          <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
             <svg
               width="20"
               height="20"
