@@ -24,7 +24,7 @@ function Team() {
           </div>
           <div className="text-center">
             <p className="text-2xl text-gray-800 dark:text-white">
-              Patrick Sebastien
+              Jean-Baptiste Pène
             </p>
             <p className="text-xl text-gray-500 dark:text-gray-200 font-light">
               Developpeur
