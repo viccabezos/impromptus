@@ -1,10 +1,11 @@
+import Link from "next/link";
 import React from "react";
 
 function Card({ title, artist, verses, number, langue }) {
   //   console.log(title, number);
   return (
     <>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 bg-base-100 shadow-xl" key={number}>
         <figure>
           <img
             src="https://api.lorem.space/image/album?w=400&h=225"
@@ -32,7 +33,11 @@ function Card({ title, artist, verses, number, langue }) {
 
             <div className="badge badge-outline">{langue} </div>
           </div>
-          <button className="btn btn-primary">CHANTER</button>
+          <button className="btn btn-primary">
+            <Link href={`/chanter/${number} `}>
+              <a href="">CHANTER</a>
+            </Link>
+          </button>
         </div>
       </div>
     </>

@@ -19,7 +19,7 @@ function Navbar() {
       <div className="">
         <div className="dropdown">
           <label
-            tabindex="0"
+            tabIndex="0"
             className="btn btn-ghost lg:hidden text-white mr-5"
           >
             <svg
@@ -30,20 +30,20 @@ function Navbar() {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
               />
             </svg>
           </label>
           {/* phone navbar */}
           <ul
-            tabindex="0"
+            tabIndex="0"
             className="menu mt-2 dropdown-content shadow bg-primary w-96 text-white "
           >
-            {navigation.map((link, idx) => (
-              <li key={link.idx} className="hover-bordered hover-text-bold">
+            {navigation.map((link) => (
+              <li key={link.title} className="hover-bordered hover-text-bold">
                 <a href={link.path}>{link.title} </a>
               </li>
             ))}
@@ -56,8 +56,8 @@ function Navbar() {
       {/* full screen navBar */}
       <div className="navbar-center hidden lg:flex text-white">
         <ul className="menu menu-horizontal">
-          {navigation.map((link, idx) => (
-            <li key={link.idx}>
+          {navigation.map((link) => (
+            <li key={link.title}>
               <a href={link.path}>{link.title} </a>
             </li>
           ))}

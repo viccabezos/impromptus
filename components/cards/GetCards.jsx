@@ -13,6 +13,7 @@ function GetCards({ data }) {
             verses={verses}
             number={number}
             langue={langue}
+            key={number}
           />
         </>
       ))}
