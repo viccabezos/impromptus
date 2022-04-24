@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Team() {
   return (
-    <div className="p-8 bg-secondary shadow" data-theme="mytheme">
+    <div data-theme="mytheme" className="p-8 bg-secondary shadow">
       <div className=" py-5 flex flex-col gap-2 ">
         <p className="text-center text-3xl font-bold text-primary ">
           Nos musiciens
@@ -16,8 +16,8 @@ function Team() {
         </p>
       </div>
       <div className="flex justify-center items-center flex-col md:flex-row md:items-center justify evenly gap-3 mt-5">
-        {teamData.map((member) => (
-          <div className="p-4 bg-white rounded-md shadow-md">
+        {teamData.map((member, i) => (
+          <div className="p-4 bg-white rounded-md shadow-md" key={i}>
             <div className="text-center mb-4 opacity-90">
               <Image
                 src={member.image}

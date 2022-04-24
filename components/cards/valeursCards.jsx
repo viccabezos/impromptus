@@ -3,8 +3,8 @@ import React from "react";
 function ValeursCards() {
   return (
     <div
-      className="sm:flex flex-wrap justify-center items-center text-center gap-8 py-10"
       data-theme="mytheme"
+      className="sm:flex flex-wrap justify-center items-center text-center gap-8 py-10"
     >
       <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg">
         <div className="flex-shrink-0">

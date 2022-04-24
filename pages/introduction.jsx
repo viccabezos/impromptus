@@ -1,5 +1,7 @@
 import React from "react";
-import introduction from "../data/intro";
+import intro from "../data/intro";
+import Image from "next/image";
+import Hoss from "/public/hoss.webp";
 
 function Introduction() {
   return (
@@ -7,7 +9,23 @@ function Introduction() {
       class="sm:flex flex-wrap justify-center items-center text-center gap-8 py-10"
       data-theme="mytheme"
     >
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg bg-secondary-focus">
+      <div
+        data-theme="mytheme"
+        className="hero min-h-screen bg-white hero-overlay bg-opacity-40"
+      >
+        <Image src={Hoss} layout="fill" className="opacity-40" />
+        <div className="hero-content text-center">
+          <div className="max-w-md">
+            <h1 className="mb-5 text-5xl font-bold text-primary">
+              Les chanteurs impromptus 2022
+            </h1>
+            <p className="mb-2 text-neutral">
+              Bienvenue à tous chanteurs de tout horizon!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg ">
         <div class="flex-shrink-0">
           <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
             <svg
@@ -30,7 +48,7 @@ function Introduction() {
           solutions relevant to your business.
         </p>
       </div>
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg bg-secondary-focus">
+      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg ">
         <div class="flex-shrink-0">
           <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
             <svg
@@ -53,7 +71,7 @@ function Introduction() {
           connection with your audience.
         </p>
       </div>
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg bg-secondary-focus">
+      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg ">
         <div class="flex-shrink-0">
           <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
             <svg

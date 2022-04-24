@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import ValeursCards from "../components/cards/valeursCards";
 import Carousel from "../components/carousel/carousel";
 import SpecialEvent from "../components/hero/event";
