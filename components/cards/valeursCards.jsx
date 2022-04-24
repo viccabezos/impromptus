@@ -3,17 +3,17 @@ import React from "react";
 function ValeursCards() {
   return (
     <div
-      class="sm:flex flex-wrap justify-center items-center text-center gap-8 py-10"
+      className="sm:flex flex-wrap justify-center items-center text-center gap-8 py-10"
       data-theme="mytheme"
     >
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg bg-secondary-focus">
-        <div class="flex-shrink-0">
-          <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
+      <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg">
+        <div className="flex-shrink-0">
+          <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
             <svg
               width="20"
               height="20"
               fill="currentColor"
-              class="h-6 w-6"
+              className="h-6 w-6"
               viewBox="0 0 1792 1792"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -21,22 +21,22 @@ function ValeursCards() {
             </svg>
           </div>
         </div>
-        <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+        <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
           Website Design
         </h3>
-        <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+        <p className="text-md  text-gray-500 dark:text-gray-300 py-4">
           Encompassing today’s website design technology to integrated and build
           solutions relevant to your business.
         </p>
       </div>
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg bg-secondary-focus">
-        <div class="flex-shrink-0">
-          <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
+      <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg">
+        <div className="flex-shrink-0">
+          <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
             <svg
               width="20"
               height="20"
               fill="currentColor"
-              class="h-6 w-6"
+              className="h-6 w-6"
               viewBox="0 0 1792 1792"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -44,22 +44,22 @@ function ValeursCards() {
             </svg>
           </div>
         </div>
-        <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+        <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
           Branding
         </h3>
-        <p class="text-md text-gray-500 dark:text-gray-300 py-4">
+        <p className="text-md text-gray-500 dark:text-gray-300 py-4">
           Share relevant, engaging, and inspirational brand messages to create a
           connection with your audience.
         </p>
       </div>
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg bg-secondary-focus">
-        <div class="flex-shrink-0">
-          <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
+      <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg">
+        <div className="flex-shrink-0">
+          <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
             <svg
               width="20"
               height="20"
               fill="currentColor"
-              class="h-6 w-6"
+              className="h-6 w-6"
               viewBox="0 0 1792 1792"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -67,10 +67,10 @@ function ValeursCards() {
             </svg>
           </div>
         </div>
-        <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+        <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
           SEO Marketing
         </h3>
-        <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+        <p className="text-md  text-gray-500 dark:text-gray-300 py-4">
           Let us help you level up your search engine game, explore our
           solutions for digital marketing for your business.
         </p>

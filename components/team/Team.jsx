@@ -1,7 +1,7 @@
 import React from "react";
 import teamData from "../../data/teamData";
 import Image from "next/image";
-import anne from "../../public/anne.png";
+// import anne from "../../public/anne.png";
 
 function Team() {
   return (
@@ -35,7 +35,7 @@ function Team() {
               </p>
             </div>
             <div className="pt-4 flex border-t w-44 mx-auto text-primary justify-center">
-              <a href="#">
+              <a href={member.social}>
                 <svg
                   width="30"
                   height="30"

@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ValeursCards from "../components/cards/valeursCards";
 import Carousel from "../components/carousel/carousel";
+import SpecialEvent from "../components/hero/event";
 import Hero from "../components/hero/Hero";
 import Team from "../components/team/Team";
 
@@ -15,14 +16,11 @@ export default function Home() {
       </Head>
       <div>
         <Hero />
-      </div>
-      {/* <div>
+        <SpecialEvent />
         <Carousel />
-      </div> */}
-      <div>
+
         <ValeursCards />
-      </div>
-      <div>
+
         <Team />
       </div>
     </div>
