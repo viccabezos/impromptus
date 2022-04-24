@@ -6,8 +6,9 @@ import Link from "next/link";
 function Navbar() {
   const navigation = [
     { title: "Acceuil", path: "/" },
-    { title: "Introduction", path: "/buillon" },
-    { title: "Chanter", path: "/chanter" },
+    { title: "Introduction", path: "/introduction" },
+    { title: "Chansons saison 2022", path: "/chanter-saison-2022" },
+    { title: "Chanter entre amis", path: "/chanter-entre-amis" },
     { title: "QA", path: "/" },
   ];
 
@@ -40,7 +41,7 @@ function Navbar() {
           {/* phone navbar */}
           <ul
             tabIndex="0"
-            className="menu mt-2 dropdown-content shadow bg-primary w-96 text-white "
+            className="menu relative mt-2 dropdown-content shadow bg-primary w-96 text-white "
           >
             {navigation.map((link) => (
               <li key={link.title} className="hover-bordered hover-text-bold">
@@ -49,9 +50,11 @@ function Navbar() {
             ))}
           </ul>
         </div>
-        <div className="mr-5 items-center flex">
-          <Image src={logo} alt="logo" width={100} height={30} />
-        </div>
+        <Link href={"/"}>
+          <div className="mr-5 items-center flex">
+            <Image src={logo} alt="logo" width={100} height={30} />
+          </div>
+        </Link>
       </div>
       {/* full screen navBar */}
       <div className="navbar-center hidden lg:flex text-white">

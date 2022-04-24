@@ -15,11 +15,13 @@ function Hero() {
           <h1 className="mb-5 text-5xl font-bold">Les chanteurs impromptus</h1>
           <p className="mb-2">Bienvenue à tous chanteurs de tout horizon !</p>
           <p className="mb-5">
-            "Le chant est un langage universel qui doit rassembler les femmes et
-            les hommes de tous pays et de toutes cultures.""
+            "Les impromptus c'est vous tous, qui nous accompagnez dans nos
+            chants,
+            <br />
+            Merci a vous de faire vivre nôtre projet "
           </p>
           <button className="btn btn-primary text-white">
-            <a href="/chanter">CHANTER</a>
+            <a href="/chanter-saison-2022">CHANSONS saison 2022</a>
           </button>
         </div>
       </div>

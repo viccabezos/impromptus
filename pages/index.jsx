@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Card from "../components/cards/Card";
-import GetCards from "../components/cards/GetCards";
 import ValeursCards from "../components/cards/valeursCards";
 import Carousel from "../components/carousel/carousel";
 import Hero from "../components/hero/Hero";
@@ -18,9 +16,9 @@ export default function Home() {
       <div>
         <Hero />
       </div>
-      <div>
+      {/* <div>
         <Carousel />
-      </div>
+      </div> */}
       <div>
         <ValeursCards />
       </div>
