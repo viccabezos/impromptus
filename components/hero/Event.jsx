@@ -14,12 +14,12 @@ function SpecialEvent() {
             alt="Movie"
           /> */}
         </figure>
-        {/* <div>
+        <div>
           <img
             src="https://api.lorem.space/image/album?w=400&h=225"
             alt="Shoes"
           />
-        </div> */}
+        </div>
 
         <div className="card-body">
           <h2 className="card-title">New movie is released!</h2>

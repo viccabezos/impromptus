@@ -1,7 +1,7 @@
 import Head from "next/head";
 import ValeursCards from "../components/cards/valeursCards";
 import Carousel from "../components/carousel/carousel";
-import SpecialEvent from "../components/hero/event";
+import SpecialEvent from "../components/hero/Event";
 import Hero from "../components/hero/Hero";
 import Team from "../components/team/Team";
 
