@@ -13,7 +13,7 @@ export const getStaticProps = async () => {
 };
 
 export default function Chanter({ songsList }) {
-  console.log("hello", songsList);
+  // console.log("hello", songsList);
   return (
     <div data-theme="mytheme">
       <div>
@@ -22,7 +22,7 @@ export default function Chanter({ songsList }) {
       <div></div>
       <div className="flex flex-col items-center pb-20 gap-3 bg-primary/80">
         {songsList.map((song) => (
-          <Card {...song} key={song.id} />
+          <Card {...song} id={song.number} key={song.id} />
         ))}
       </div>
     </div>
