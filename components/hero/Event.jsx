@@ -4,32 +4,64 @@ import ukraine from "../../public/images/ukraine.webp";
 
 function SpecialEvent() {
   return (
-    <div data-theme="mytheme" className="bg-primary">
-      <p>hello</p>
-      <div className="card card-side bg-base-100 shadow-xl">
-        <figure className="flex h-20 w-20">
-          <Image src={ukraine} layout="fill" alt="concert" />
-          {/* <img
-            src="https://api.lorem.space/image/movie?w=200&h=280"
-            alt="Movie"
-          /> */}
+    <div data-theme="mytheme" className="bg-secondary py-20 md:px-20">
+      <div class="md:px-10 flex flex-col md:flex-row  md:gap-5 md:py-5 lg:flex shadow-xl bg-white text-justify">
+        <figure className="md:w-1/3 py-10 ">
+          <Image src={ukraine} alt="concert" />
         </figure>
-        <div>
-          <img
-            src="https://api.lorem.space/image/album?w=400&h=225"
-            alt="Shoes"
-          />
-        </div>
+        <div class="px-5 md:w-2/3 py-10 flex flex-col space-y-3">
+          <h2 class="text-3xl">Evenement: Concert solidaire</h2>
+          <p>samedi 2 juillet</p>
 
-        <div className="card-body">
-          <h2 className="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Watch</button>
-          </div>
+          <p>
+            À la lumière des événements tragiques qui se déroulent en Ukraine,
+            la commune de Vieux-Boucau, le comité d’animation de Vieux-Boucau et
+            l’association Landes Musiques Amplifiées en partenariat avec la
+            communauté de communes MACS, ont souhaité inscrire la seconde
+            édition du festival essentiel dans une démarche solidaire.
+          </p>
+          <p>
+            Nous vous donnons rendez-vous le samedi 2 juillet prochain aux
+            Arènes de Vieux-Boucau pour une soirée unique de concerts !
+          </p>
+          <p>
+            Le Cri du Chœur est une chorale éphémère intergénérationnelle,
+            composée de 200 chanteurs et chanteuses du territoire âgés de 16 à
+            80 ans. Créée pour le Concert Essentiel et Solidaire, la chorale
+            interprétera cinq morceaux dirigés par Marie So, cheffe de cœur à
+            Capbreton, et sera accompagnée de trois musiciens (guitare, basse et
+            batterie) pour un spectacle vivant.
+          </p>
         </div>
       </div>
     </div>
+
+    // <div data-theme="mytheme" className="bg-primary">
+    //   <p>hello</p>
+    //   <div className="card card-side bg-base-100 shadow-xl">
+    //     <figure className="flex h-20 w-20">
+    //       <Image src={ukraine} layout="fill" alt="concert" />
+    //       {/* <img
+    //         src="https://api.lorem.space/image/movie?w=200&h=280"
+    //         alt="Movie"
+    //       /> */}
+    //     </figure>
+    //     <div>
+    //       <img
+    //         src="https://api.lorem.space/image/album?w=400&h=225"
+    //         alt="Shoes"
+    //       />
+    //     </div>
+
+    //     <div className="card-body">
+    //       <h2 className="card-title">New movie is released!</h2>
+    //       <p>Click the button to watch on Jetflix app.</p>
+    //       <div className="card-actions justify-end">
+    //         <button className="btn btn-primary">Watch</button>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
   );
 }
 

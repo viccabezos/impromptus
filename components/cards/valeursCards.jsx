@@ -2,79 +2,66 @@ import React from "react";
 
 function ValeursCards() {
   return (
-    <div
-      data-theme="mytheme"
-      className="sm:flex flex-wrap justify-center items-center text-center gap-8 py-10"
-    >
-      <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg">
-        <div className="flex-shrink-0">
-          <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
-            <svg
-              width="20"
-              height="20"
-              fill="currentColor"
-              className="h-6 w-6"
-              viewBox="0 0 1792 1792"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"></path>
-            </svg>
-          </div>
-        </div>
-        <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-          Website Design
-        </h3>
-        <p className="text-md  text-gray-500 dark:text-gray-300 py-4">
-          Encompassing today’s website design technology to integrated and build
-          solutions relevant to your business.
+    <div data-theme="mytheme" className="flex flex-col justify-center">
+      <h2 className="text-center text-3xl font-bold text-primary mt-10">
+        Remerciements
+      </h2>
+      <div className="sm:flex flex-wrap justify-center items-center text-center pb-10 md: px-20">
+        <p className="text-md py-4">
+          Remerciements à tous ceux qui ont contribués au lancement de cette
+          belle aventure, Les Chanteurs Impromptus chansons partagées.
+          Remerciements à ceux qui ont abrité un temps, ou plus, nos
+          répétitions, Xavier et Jérémie de la BodyGo Surfhouse, ainsi que la
+          maison de la Glisse d’Hossegor et Oliver Gonzo Manager chanteur de
+          chez Jo and Jo.
+        </p>
+        <p className="text-md py-4">
+          Merci à ceux qui m’ont encouragé au développement de ce projet, les
+          dirigeants du Circus de Capbreton et Laurent Marie Joseph pour ses
+          conseils vers les musiciens chanteurs Jean-Baptiste Pène Anne Serrano
+          et Antoine du Boucher.
+        </p>
+        <p className="text-md py-4">
+          Merci à Violette Faure et son premier groupe d’amis chanteurs ainsi
+          qu’à Dominique Daridole et sa muse Liliane pour leur aide et soutien
+          constant. Enfin, merci aux chanteurs qui ont participé avec autant
+          d’assiduité qu’ils ont pu aux 11 répétitions que nous avons faites
+          entre novembre et avril ; Véronique, Rachel, Fabienne, Catherine et
+          Philippe, Céline, Dominique, Héléne , Patricia, Véronik, Aline,
+          Valérie , Olivier, Bruno et Patrick.
         </p>
       </div>
-      <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg">
-        <div className="flex-shrink-0">
-          <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
-            <svg
-              width="20"
-              height="20"
-              fill="currentColor"
-              className="h-6 w-6"
-              viewBox="0 0 1792 1792"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"></path>
-            </svg>
-          </div>
+      {/* <div className="sm:flex flex-wrap justify-center items-center text-center gap-8 pb-10">
+        <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg">
+          <p className="text-md  text-gray-500 dark:text-gray-300 py-4">
+            Remerciements à tous ceux qui ont contribués au lancement de cette
+            belle aventure, Les Chanteurs Impromptus chansons partagées.
+            Remerciements à ceux qui ont abrité un temps, ou plus, nos
+            répétitions, Xavier et Jérémie de la BodyGo Surfhouse, ainsi que la
+            maison de la Glisse d’Hossegor et Oliver Gonzo Manager chanteur de
+            chez Jo and Jo.
+          </p>
         </div>
-        <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-          Branding
-        </h3>
-        <p className="text-md text-gray-500 dark:text-gray-300 py-4">
-          Share relevant, engaging, and inspirational brand messages to create a
-          connection with your audience.
-        </p>
-      </div>
-      <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg">
-        <div className="flex-shrink-0">
-          <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
-            <svg
-              width="20"
-              height="20"
-              fill="currentColor"
-              className="h-6 w-6"
-              viewBox="0 0 1792 1792"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"></path>
-            </svg>
-          </div>
+        <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg">
+          <p className="text-md text-gray-500 dark:text-gray-300 py-4">
+            Merci à ceux qui m’ont encouragé au développement de ce projet, les
+            dirigeants du Circus de Capbreton et Laurent Marie Joseph pour ses
+            conseils vers les musiciens chanteurs Jean-Baptiste Pène Anne
+            Serrano et Antoine du Boucher.
+          </p>
         </div>
-        <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-          SEO Marketing
-        </h3>
-        <p className="text-md  text-gray-500 dark:text-gray-300 py-4">
-          Let us help you level up your search engine game, explore our
-          solutions for digital marketing for your business.
-        </p>
-      </div>
+        <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg">
+          <p className="text-md  text-gray-500 dark:text-gray-300 py-4">
+            Merci à Violette Faure et son premier groupe d’amis chanteurs ainsi
+            qu’à Dominique Daridole et sa muse Liliane pour leur aide et soutien
+            constant. Enfin, merci aux chanteurs qui ont participé avec autant
+            d’assiduité qu’ils ont pu aux 11 répétitions que nous avons faites
+            entre novembre et avril ; Véronique, Rachel, Fabienne, Catherine et
+            Philippe, Céline, Dominique, Héléne , Patricia, Véronik, Aline,
+            Valérie , Olivier, Bruno et Patrick.
+          </p>
+        </div>
+      </div> */}
     </div>
   );
 }

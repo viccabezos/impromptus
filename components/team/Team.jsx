@@ -7,9 +7,9 @@ function Team() {
   return (
     <div data-theme="mytheme" className="p-8 bg-secondary shadow">
       <div className=" py-5 flex flex-col gap-2 ">
-        <p className="text-center text-3xl font-bold text-primary ">
+        <h2 className="text-center text-3xl font-bold text-primary ">
           Nos musiciens
-        </p>
+        </h2>
         <p className="text-center text-xl font-normal text-white">
           Nous reprenons –avec vous- des chants d’un répertoire éclectique qui
           doit « Parler-Chanter » au plus grand nombre.
