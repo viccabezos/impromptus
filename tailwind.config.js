@@ -5,7 +5,14 @@ module.exports = {
     "./layout/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      // backgroundImage: {
+      //   hossegorBanner: "url('./assets/images/hoss.webp')",
+      // },
+      // backgroundSize: {
+      //   mauveBanner: "cover",
+      // },
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {

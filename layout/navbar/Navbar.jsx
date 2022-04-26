@@ -9,7 +9,6 @@ function Navbar() {
     { title: "Introduction", path: "/introduction" },
     { title: "Chansons saison 2022", path: "/chanter-saison-2022" },
     { title: "Chanter entre amis", path: "/chanter-entre-amis" },
-    { title: "QA", path: "/" },
   ];
 
   return (

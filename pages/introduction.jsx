@@ -11,89 +11,56 @@ function Introduction() {
     >
       <div
         data-theme="mytheme"
-        className="hero min-h-screen bg-white hero-overlay bg-opacity-40"
+        className="flex bg-hossegorBanner justify-center h-40 bg-white hero-overlay bg-opacity-40 items-center"
       >
-        <Image src={Hoss} layout="fill" className="opacity-40" />
-        <div className="hero-content text-center">
+        {/* <Image src={Hoss} layout="fill" className="opacity-40" /> */}
+        <div className=" text-center">
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold text-primary">
               Les chanteurs impromptus 2022
             </h1>
-            <p className="mb-2 text-neutral">
-              Bienvenue à tous chanteurs de tout horizon!
-            </p>
           </div>
         </div>
       </div>
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg ">
-        <div class="flex-shrink-0">
-          <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
-            <svg
-              width="20"
-              height="20"
-              fill="currentColor"
-              class="h-6 w-6"
-              viewBox="0 0 1792 1792"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"></path>
-            </svg>
+      <section className="px-10">
+        <div class="w-full max-w-4xl p-10 bg-white mt-6  shadow-lg rounded-lg text-justify space-y-5 ">
+          <p className="mb-2">Bienvenue à tous chanteurs de tout horizon!</p>
+          <p>
+            Le groupe des Chanteurs Impromptus, sous la conduite de notre
+            musicien Jean-Baptiste Pène –accordéon guitare- et de notre
+            chanteuse Anne Serrano, accompagnés d’Antoine, guitariste, vous
+            propose de nous rejoindre autour de quelques représentations durant
+            cet été 2022. Nous reprenons –avec vous- des chants d’un répertoire
+            éclectique qui doit « Parler-Chanter » au plus grand nombre.
+          </p>
+          <p>
+            Retrouver le plaisir du chant en commun est notre mot d’ordre. Une
+            tradition comme il existait jadis dans les villages de nos
+            campagnes. Des chants traditionnels français, basques et occitans
+            et, bien sûr, élargis à nos voisins européens. Le chant est un
+            langage universel qui doit rassembler les femmes et les hommes de
+            tous pays et de toutes cultures.
+          </p>
+          <p>
+            Les chants sont annoncés, vous les retrouvezdans ce carnet ou sur
+            l’application smartphone. Commencez progressivement à porter votre
+            voix sur un refrain ou/et couplets en suivant notre chœur et en
+            respectant le rythme de notre musicien. N’hésitezpas à nous
+            rejoindre –épaule contre épaule- pour les chansons que vous
+            maîtrisez, vous êtes les bienvenus.
+          </p>
+          <p>
+            Chansons d’Amour, de Résistance et de Paix, chantons pour le plaisir
+            et l’amitié ; les chants doivent unir les Cœurs des femmes et des
+            hommes pour gagner la paix et protéger notre planète pour les
+            générations futures…
+          </p>
+          <div className="flex flex-col items-end w-full">
+            <p className="font-medium">Jean-Pierre Arbouet,</p>
+            <p>A l’origine du projet Les Chanteurs Impromptus d’Hossegor</p>
           </div>
         </div>
-        <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-          Website Design
-        </h3>
-        <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
-          Encompassing today’s website design technology to integrated and build
-          solutions relevant to your business.
-        </p>
-      </div>
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg ">
-        <div class="flex-shrink-0">
-          <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
-            <svg
-              width="20"
-              height="20"
-              fill="currentColor"
-              class="h-6 w-6"
-              viewBox="0 0 1792 1792"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"></path>
-            </svg>
-          </div>
-        </div>
-        <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-          Branding
-        </h3>
-        <p class="text-md text-gray-500 dark:text-gray-300 py-4">
-          Share relevant, engaging, and inspirational brand messages to create a
-          connection with your audience.
-        </p>
-      </div>
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg ">
-        <div class="flex-shrink-0">
-          <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-primary text-white">
-            <svg
-              width="20"
-              height="20"
-              fill="currentColor"
-              class="h-6 w-6"
-              viewBox="0 0 1792 1792"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"></path>
-            </svg>
-          </div>
-        </div>
-        <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-          SEO Marketing
-        </h3>
-        <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
-          Let us help you level up your search engine game, explore our
-          solutions for digital marketing for your business.
-        </p>
-      </div>
+      </section>
     </div>
   );
 }

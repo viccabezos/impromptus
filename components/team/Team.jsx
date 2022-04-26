@@ -1,7 +1,6 @@
 import React from "react";
 import teamData from "../../data/teamData";
 import Image from "next/image";
-// import anne from "../../public/anne.png";
 
 function Team() {
   return (
