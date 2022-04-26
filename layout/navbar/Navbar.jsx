@@ -12,10 +12,7 @@ function Navbar() {
   ];
 
   return (
-    <div
-      data-theme="mytheme"
-      className="w-full navbar bg-primary sticky top-0 z-50"
-    >
+    <div data-theme="mytheme" className="navbar bg-primary sticky top-0 z-50">
       <div className="">
         <div className="dropdown">
           <label
