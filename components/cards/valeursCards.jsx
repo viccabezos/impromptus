@@ -6,7 +6,7 @@ function ValeursCards() {
       <h2 className="text-center text-3xl font-bold text-primary mt-10">
         Remerciements
       </h2>
-      <div className="sm:flex flex-wrap justify-center text-justify pb-10 md: px-20">
+      <div className="flex flex-col justify-center text-justify pb-10 px-5 md:px-20">
         <p className="text-md py-4">
           Remerciements à tous ceux qui ont contribués au lancement de cette
           belle aventure, Les Chanteurs Impromptus chansons partagées.
