@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../../components/cards/Card";
-import HeroSaison2022 from "../../components/hero/HeroSaison2022";
+import HeroEntreAmis from "../../components/hero/HeroEntreAmis";
 import { songs } from "../../data/dataSaison";
 
 export const getStaticProps = async () => {
@@ -16,7 +16,7 @@ export default function Chanter({ songsList }) {
   return (
     <div data-theme="mytheme" className="flex flex-col justify-center">
       <div className="shadow-md">
-        <HeroSaison2022 />
+        <HeroEntreAmis />
       </div>
       <div></div>
       <div className="flex flex-col items-center pb-20 gap-3 bg-primary/80">
@@ -26,7 +26,7 @@ export default function Chanter({ songsList }) {
       </div>
       <div className="p-5 flex flex-col justify-center ">
         <button className="btn btn-primary text-white shadow-md">
-          <a href="/chanter-entre-amis">CHANSONS entre amis</a>
+          <a href="/chanter-saison-2022">CHANSONS saison 2022</a>
         </button>
       </div>
     </div>
