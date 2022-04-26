@@ -76,9 +76,10 @@ export const songs = [
       },
     ],
     phonetique: [
+      { title: "Bella Ciao (phonétique)" },
       {
         verse:
-          "Bella Ciao (phonétique) Una matina Mi son'aldzato O bella tchao, bella tchao, bella  tchao, tchao, tchao Una matina Mi son'aldzato É o trovato l'in’vasor.",
+          "Una matina Mi son'aldzato O bella tchao, bella tchao, bella  tchao, tchao, tchao Una matina Mi son'aldzato É o trovato l'in’vasor.",
       },
       {
         verse:
