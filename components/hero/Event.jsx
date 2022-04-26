@@ -6,11 +6,11 @@ function SpecialEvent() {
   return (
     <div data-theme="mytheme" className="bg-secondary py-20 md:px-20">
       <div class="md:px-10 flex flex-col md:flex-row  md:gap-5 md:py-5 lg:flex shadow-xl bg-white text-justify">
-        <figure className="md:w-1/3 py-10 ">
+        <figure className="md:w-1/3 py-10 px-2">
           <Image src={ukraine} alt="concert" />
         </figure>
-        <div class="px-5 md:w-2/3 py-10 flex flex-col space-y-3">
-          <h2 class="text-3xl">Evenement: Concert solidaire</h2>
+        <div class="px-5 md:w-2/3 py-10 flex flex-col space-y-3 ">
+          <h2 class="text-3xl text-left">Evenement: Concert solidaire</h2>
           <p>samedi 2 juillet</p>
 
           <p>
@@ -35,33 +35,6 @@ function SpecialEvent() {
         </div>
       </div>
     </div>
-
-    // <div data-theme="mytheme" className="bg-primary">
-    //   <p>hello</p>
-    //   <div className="card card-side bg-base-100 shadow-xl">
-    //     <figure className="flex h-20 w-20">
-    //       <Image src={ukraine} layout="fill" alt="concert" />
-    //       {/* <img
-    //         src="https://api.lorem.space/image/movie?w=200&h=280"
-    //         alt="Movie"
-    //       /> */}
-    //     </figure>
-    //     <div>
-    //       <img
-    //         src="https://api.lorem.space/image/album?w=400&h=225"
-    //         alt="Shoes"
-    //       />
-    //     </div>
-
-    //     <div className="card-body">
-    //       <h2 className="card-title">New movie is released!</h2>
-    //       <p>Click the button to watch on Jetflix app.</p>
-    //       <div className="card-actions justify-end">
-    //         <button className="btn btn-primary">Watch</button>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 }
 

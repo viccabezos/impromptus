@@ -15,7 +15,9 @@ export default function Home() {
       </Head>
       <div>
         <Hero />
-        <SpecialEvent />
+        <div className="mt-28">
+          <SpecialEvent />
+        </div>
         <Carousel />
 
         <ValeursCards />

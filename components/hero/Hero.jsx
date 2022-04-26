@@ -5,10 +5,10 @@ function Hero() {
   return (
     <div
       data-theme="mytheme"
-      className="hero min-h-screen bg-white hero-overlay bg-opacity-40"
+      className="hero min-h-min bg-white hero-overlay py-20"
     >
-      <Image src={Hoss} layout="fill" className="opacity-40" />
-      <div className="hero-content text-center text-neutral-content">
+      <Image src={Hoss} layout="fill" className=" min-h-min opacity-40" />
+      <div className="hero-content text-center text-neutral-content ">
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold text-primary">
             Les chanteurs impromptus

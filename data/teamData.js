@@ -14,7 +14,7 @@ const teamData = [
     poste: "Chanteuse à la voix jazz et soûl",
     description:
       "Je me produis au sein de deux duos. Le duo Jazz bAllAd avec Mathieu Guinot à la guitare et au chant. Nous reprenons des standards de jazz, reggae, bossa, ballades et chansons françaises que nous réinterprétons. Le duo Almaflores avec Jérémy Russo pour des reprises latines, espagnoles et sud-américaines.",
-    image: "/images/anne.png ",
+    image: "/images/anne.png",
     altImage: "Anne Serrano",
     social: "/",
   },
@@ -23,7 +23,7 @@ const teamData = [
     poste: "Auteur compositeur, interprète amateur",
     description:
       "Aime avant tout les chansons ancrées dans les territoires. Partager des chansons entre les Impromptus et le public est un bon moyen de les faire vivre. « Donnons une chance à la paix »",
-    image: "/images/antoine.jpg ",
+    image: "/images/antoine.jpg",
     altImage: "Antoine",
     social: "/",
   },

@@ -22,7 +22,7 @@ function Introduction() {
           </div>
         </div>
       </div>
-      <section className="sm:px-10">
+      <section className="sm:px-5">
         <div class="w-full max-w-4xl p-10 bg-white mt-6  shadow-lg rounded-lg text-justify space-y-5 ">
           <p className="mb-2">Bienvenue à tous chanteurs de tout horizon!</p>
           <p>
