@@ -24,8 +24,8 @@ export default function Chanter({ songsList }) {
           <Card {...song} id={song.number} key={song.id} />
         ))}
       </div>
-      <div className="p-5 flex flex-col justify-center ">
-        <button className="btn btn-primary text-white shadow-md">
+      <div className="p-5 flex flex-col justify-center items-center ">
+        <button className="btn btn-secondary text-white shadow-md sm:w-1/2">
           <a href="/chanter-entre-amis">CHANSONS entre amis</a>
         </button>
       </div>
