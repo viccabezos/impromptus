@@ -4,7 +4,7 @@ import ukraine from "../../public/images/ukraine.webp";
 
 function SpecialEvent() {
   return (
-    <div data-theme="mytheme" className="bg-secondary py-20 md:px-20">
+    <div data-theme="mytheme" className="bg-secondary py-20 md:px-20 mt-28">
       <div class="md:px-10 flex flex-col md:flex-row  md:gap-5 md:py-5 lg:flex shadow-xl bg-white text-justify">
         <figure className="md:w-1/3 py-10 px-2">
           <Image src={ukraine} alt="concert" />

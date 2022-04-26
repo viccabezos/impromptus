@@ -11,7 +11,7 @@ function Introduction() {
     >
       <div
         data-theme="mytheme"
-        className="flex bg-hossegorBanner justify-center h-40 bg-white hero-overlay bg-opacity-40 items-center"
+        className="flex justify-center h-40 bg-white hero-overlay bg-opacity-40 items-center"
       >
         {/* <Image src={Hoss} layout="fill" className="opacity-40" /> */}
         <div className=" text-center">
@@ -23,7 +23,7 @@ function Introduction() {
         </div>
       </div>
       <section className="sm:px-5">
-        <div class="w-full max-w-4xl p-10 bg-white mt-6  shadow-lg rounded-lg text-justify space-y-5 ">
+        <div class="w-full max-w-4xl p-5 sm:p-10 bg-white mt-6  shadow-lg rounded-lg text-justify space-y-5 ">
           <p className="mb-2">Bienvenue à tous chanteurs de tout horizon!</p>
           <p>
             Le groupe des Chanteurs Impromptus, sous la conduite de notre
@@ -57,7 +57,9 @@ function Introduction() {
           </p>
           <div className="flex flex-col items-end w-full">
             <p className="font-medium">Jean-Pierre Arbouet,</p>
-            <p>A l’origine du projet Les Chanteurs Impromptus d’Hossegor</p>
+            <p className="text-right">
+              A l’origine du projet Les Chanteurs Impromptus d’Hossegor
+            </p>
           </div>
         </div>
       </section>
