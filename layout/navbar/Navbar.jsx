@@ -37,11 +37,13 @@ function Navbar() {
           {/* phone navbar */}
           <ul
             tabIndex="0"
-            className="menu menu-compact dropdown-content shadow bg-primary text-white py-10 rounded-sm "
+            className="menu menu-compact dropdown-content shadow-md bg-primary text-white py-10 rounded-md "
           >
             {navigation.map((link) => (
               <li key={link.title} className="hover-bordered hover-text-bold">
-                <a href={link.path}>{link.title} </a>
+                <a href={link.path} className="text-lg">
+                  {link.title}{" "}
+                </a>
               </li>
             ))}
           </ul>

@@ -31,7 +31,7 @@ const Song = ({ song }) => {
       id="original"
     >
       {/* SONG  */}
-      <div class=" w-96 shadow-xl">
+      <div class=" shadow-xl md:w-1/2">
         <div className=" card-body justify-start space-y-2">
           {/* <img
             src="https://api.lorem.space/image/shoes?w=400&h=225"
@@ -60,7 +60,7 @@ const Song = ({ song }) => {
             ))}
           </div>
 
-          <div class="card-actions justify-end" id="phonetique">
+          <div class="card-actions justify-center" id="phonetique">
             <button class="btn btn-primary text-white">
               <a href="/chanter-saison-2022">
                 <p>retourner a la liste de chansons</p>
@@ -94,7 +94,7 @@ const Song = ({ song }) => {
         ) : null}
       </div>
       {/* DESCRIPTION  */}
-      <div class=" w-96 shadow-xl">
+      <div class="shadow-xl flex flex-col items-center md:w-1/2">
         {song.description ? (
           <div className=" card-body justify-start space-y-2">
             <div className="flex flex-col justify-start ">
@@ -102,7 +102,7 @@ const Song = ({ song }) => {
               <p>{song.description}</p>
             </div>
             {song.phonetique ? (
-              <div class="card-actions justify-end">
+              <div class="card-actions justify-center">
                 <button class="btn btn-primary text-white">
                   <a href="/chanter-saison-2022">
                     <p>retourner a la liste de chansons</p>
