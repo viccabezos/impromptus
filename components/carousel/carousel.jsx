@@ -1,48 +1,60 @@
 import React from "react";
-
+import groupe1 from "../../public/images/groupe1.jpg";
+import groupe2 from "../../public/images/groupe2.jpg";
+import groupe3 from "../../public/images/groupe3.jpg";
+import groupe4 from "../../public/images/groupe4.jpg";
+import groupe5 from "../../public/images/groupe5.jpg";
+import Image from "next/image";
 function Carousel() {
   return (
-    <div className="carousel w-full h-96">
-      <div id="slide1" className="carousel-item relative w-full">
-        <img
-          src="https://www.surfholidays.com/assets/images/blog/2013-10-08--bars-in-hossegor-0.jpg"
-          className="w-full"
-        />
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide4" className="btn btn-circle">
-            ❮
-          </a>
-          <a href="#slide2" className="btn btn-circle">
-            ❯
-          </a>
+    <div className="bg-secondary  justify-center items-center flex ">
+      <div className="carousel w-auto h-96">
+        <div
+          id="slide1"
+          className="carousel-item relative w-full  items-center justify-center"
+        >
+          <Image src={groupe1} className="w-full h-auto " />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide2" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
         </div>
-      </div>
-      <div id="slide2" className="carousel-item relative w-full">
-        <img
-          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/f4/d1/f6/hotel-de-la-plage.jpg?w=900&h=700&s=1"
-          className="w-full"
-        />
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide1" className="btn btn-circle">
-            ❮
-          </a>
-          <a href="#slide3" className="btn btn-circle">
-            ❯
-          </a>
+        <div id="slide2" className="carousel-item relative w-full">
+          <Image src={groupe2} className="" />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide3" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
         </div>
-      </div>
-      <div id="slide3" className="carousel-item relative w-full">
-        <img
-          src="https://livefrance.webcam/wp-content/uploads/2021/08/hossegor-webcam-1536x1024.jpg"
-          className="w-full"
-        />
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide2" className="btn btn-circle">
-            ❮
-          </a>
-          <a href="#slide4" className="btn btn-circle">
-            ❯
-          </a>
+        <div id="slide3" className="carousel-item relative w-full">
+          <Image src={groupe3} className="w-full " />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide4" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id="slide4" className="carousel-item relative w-full">
+          <Image src={groupe4} className="w-full " />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide1" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
         </div>
       </div>
     </div>
