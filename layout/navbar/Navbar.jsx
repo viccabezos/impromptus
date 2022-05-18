@@ -5,10 +5,9 @@ import facebook2 from "../../public/facebook2.png";
 import Link from "next/link";
 function Navbar() {
   const navigation = [
-    { title: "Acceuil", path: "/" },
-    { title: "Introduction", path: "/introduction" },
-    { title: "Chansons saison 2022", path: "/chanter-saison-2022" },
-    { title: "Chanter entre amis", path: "/chanter-entre-amis" },
+    { title: "Accueil", path: "/" },
+    { title: "Répertoire Impromptus 2022", path: "/chanter-saison-2022" },
+    { title: "Répertoire Entre Amis", path: "/chanter-entre-amis" },
   ];
 
   return (
@@ -37,7 +36,7 @@ function Navbar() {
           {/* phone navbar */}
           <ul
             tabIndex="0"
-            className="menu menu-compact dropdown-content shadow-md bg-primary text-white py-10 rounded-md "
+            className="menu menu-compact dropdown-content shadow-md bg-primary text-white py-10 rounded-md ml-0"
           >
             {navigation.map((link) => (
               <li key={link.title} className="hover-bordered hover-text-bold">
@@ -65,20 +64,7 @@ function Navbar() {
         </ul>
       </div>
       <div className="navbar-end text-white flex gap-4">
-        <Link href="/">
-          <a target="_blank">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              className="fill-current"
-            >
-              <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-            </svg>
-          </a>
-        </Link>
-        <Link href="/">
+        <Link href="https://www.facebook.com/chanteursimpromptus">
           <a target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -1,30 +1,19 @@
 import React from "react";
-import intro from "../data/intro";
 import Image from "next/image";
-import Hoss from "/public/hoss.webp";
+import pops from "../../public/images/pops.jpg";
 
-function Introduction() {
+function Presentation() {
   return (
-    <div
-      class="sm:flex flex-wrap justify-center items-center text-center gap-8 py-10"
-      data-theme="mytheme"
-    >
-      <div
-        data-theme="mytheme"
-        className="flex justify-center h-40 bg-white hero-overlay bg-opacity-40 items-center"
-      >
-        {/* <Image src={Hoss} layout="fill" className="opacity-40" /> */}
-        <div className=" text-center">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold text-primary">
-              Les chanteurs impromptus 2022
-            </h1>
-          </div>
-        </div>
-      </div>
-      <section className="sm:px-5">
-        <div class="w-full max-w-4xl p-5 sm:p-10 bg-white mt-6  shadow-lg rounded-lg text-justify space-y-5 ">
-          <p className="mb-2">Bienvenue à tous chanteurs de tout horizon!</p>
+    <div data-theme="mytheme" className="bg-secondary py-20 md:px-20 mt-28">
+      <div class="md:px-10 flex flex-col lg:flex-row  md:gap-5  md:py-5 lg:flex shadow-xl bg-white text-justify">
+        <figure className="lg:w-1/3 py-5 px-10 lg:px-0">
+          <Image src={pops} alt="concert" />
+        </figure>
+        <div class="px-10 lg:w-2/3 py-5 flex flex-col space-y-4 lg:px-0 ">
+          <h2 class="text-3xl text-left">
+            Bienvenue à tous chanteurs de tout horizon!
+          </h2>
+
           <p>
             Le groupe des Chanteurs Impromptus, sous la conduite de notre
             musicien Jean-Baptiste Pène –accordéon guitare- et de notre
@@ -62,9 +51,9 @@ function Introduction() {
             </p>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }
 
-export default Introduction;
+export default Presentation;

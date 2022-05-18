@@ -1,5 +1,6 @@
 {
-  "name": "my-project",
+  "name": "impromptus",
+  "author": "Victoria Cabezos",
   "version": "0.1.0",
   "private": true,
   "scripts": {

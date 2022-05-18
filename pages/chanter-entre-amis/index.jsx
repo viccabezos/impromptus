@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../components/cards/Card";
 import HeroEntreAmis from "../../components/hero/HeroEntreAmis";
-import { songs } from "../../data/dataSaison";
+import { songs } from "../../data/dataPartage";
 
 export const getStaticProps = async () => {
   return {

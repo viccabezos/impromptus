@@ -2,7 +2,7 @@ import React from "react";
 
 function ValeursCards() {
   return (
-    <div data-theme="mytheme" className="flex flex-col">
+    <div data-theme="mytheme" className="flex flex-col mt-20">
       <h2 className="text-center text-3xl font-bold text-primary mt-10">
         Remerciements
       </h2>
@@ -29,6 +29,13 @@ function ValeursCards() {
           entre novembre et avril ; Véronique, Rachel, Fabienne, Catherine et
           Philippe, Céline, Dominique, Héléne , Patricia, Véronik, Aline,
           Valérie , Olivier, Bruno et Patrick.
+        </p>
+        <p className="text-md py-4">
+          Enfin merci aux chanteurs qui ont participés avec autant d’assiduité
+          qu’ils ont pu aux 11 répétitions que nous avons faite entre Nov et
+          Avril… Anne Sophie, Elisa, Marie Thérèse, Stella, Véronique, Rachel,
+          Fabienne, Catherine et Philippe, Céline, Dominique, Héléne, Patricia,
+          Véronik, Aline, Valérie , Olivier, Bruno ,Patrick Jean Michel…
         </p>
       </div>
     </div>
