@@ -19,14 +19,14 @@ function Carousel2() {
         </div>
       </div>
       <div className="hidden lg:flex lg:justify-center lg:w-full lg:py-2 ">
-        <a href="#item1" className="btn btn-ghost">
-          o
+        <a href="#item1" className="btn btn-ghost text-gray-500 ">
+          &bull;
         </a>
-        <a href="#item4" className="btn btn-ghost">
-          o
+        <a href="#item4" className="btn btn-ghost text-gray-500">
+          &bull;
         </a>
-        <a href="#item5" className="btn btn-ghost">
-          o
+        <a href="#item5" className="btn btn-ghost text-gray-500">
+          &bull;
         </a>
       </div>
     </div>
