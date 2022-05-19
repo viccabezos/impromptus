@@ -24,11 +24,7 @@ function ValeursCards() {
         <p className="text-md py-4">
           Merci à Violette Faure et son premier groupe d’amis chanteurs ainsi
           qu’à Dominique Daridole et sa muse Liliane pour leur aide et soutien
-          constant. Enfin, merci aux chanteurs qui ont participé avec autant
-          d’assiduité qu’ils ont pu aux 11 répétitions que nous avons faites
-          entre novembre et avril ; Véronique, Rachel, Fabienne, Catherine et
-          Philippe, Céline, Dominique, Héléne , Patricia, Véronik, Aline,
-          Valérie , Olivier, Bruno et Patrick.
+          constant.
         </p>
         <p className="text-md py-4">
           Enfin merci aux chanteurs qui ont participés avec autant d’assiduité

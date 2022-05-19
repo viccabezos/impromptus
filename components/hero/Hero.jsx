@@ -5,8 +5,16 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <div data-theme="mytheme" className="hero min-h-min bg-white hero-overlay ">
-      <Image src={Hoss} layout="fill" className=" min-h-min opacity-20" />
+    <div
+      data-theme="mytheme"
+      className="hero min-h-min bg-white hero-overlay relative"
+    >
+      <Image
+        src={Hoss}
+        layout="fill"
+        className="w-full opacity-20"
+        objectFit="cover"
+      />
       <div className="hero-content text-center text-neutral-content py-10">
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold text-primary">

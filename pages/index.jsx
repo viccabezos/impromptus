@@ -15,6 +15,7 @@ export default function Home() {
       </Head>
       <div>
         <Hero />
+
         <Team />
         <ValeursCards />
         <Carousel />
