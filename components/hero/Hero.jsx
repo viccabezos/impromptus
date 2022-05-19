@@ -5,17 +5,14 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <div
-      data-theme="mytheme"
-      className="hero min-h-min h-screen bg-white hero-overlay relative"
-    >
+    <div data-theme="mytheme" className="hero bg-white hero-overlay relative">
       <Image
         src={Hoss}
         layout="fill"
         className="w-full opacity-20"
         objectFit="cover"
       />
-      <div className="hero-content text-center text-neutral-content py-10">
+      <div className="hero-content text-center text-neutral-content py-20 lg:py-32">
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold text-primary">
             Les chanteurs impromptus
