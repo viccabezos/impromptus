@@ -1,9 +1,10 @@
 import Head from "next/head";
-import ValeursCards from "../components/cards/valeursCards";
+import Remerciements from "../components/cards/Remerciements";
 import Carousel from "../components/carousel/carousel";
 import Hero from "../components/hero/Hero";
 import Presentation from "../components/hero/Presentation";
 import Team from "../components/team/Team";
+import Footer from "../layout/footer/Footer";
 
 export default function Home() {
   return (
@@ -15,11 +16,11 @@ export default function Home() {
       </Head>
       <div>
         <Hero />
-
         <Team />
-        <ValeursCards />
+        <Remerciements />
         <Carousel />
         <Presentation />
+        <Footer />
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../../components/cards/Card";
 import HeroSaison2022 from "../../components/hero/HeroSaison2022";
 import { songs } from "../../data/dataSaison";
+import Footer from "../../layout/footer/Footer";
 
 export const getStaticProps = async () => {
   return {
@@ -29,6 +30,7 @@ export default function Chanter({ songsList }) {
           <a href="/chanter-entre-amis">CHANSONS entre amis</a>
         </button>
       </div>
+      <Footer />
     </div>
   );
 }

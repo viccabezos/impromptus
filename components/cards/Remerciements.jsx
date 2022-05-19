@@ -1,8 +1,8 @@
 import React from "react";
 
-function ValeursCards() {
+function Remerciements() {
   return (
-    <div data-theme="mytheme" className="flex flex-col mt-20">
+    <div data-theme="mytheme" className="flex flex-col ">
       <h2 className="text-center text-3xl font-bold text-primary mt-10">
         Remerciements
       </h2>
@@ -38,4 +38,4 @@ function ValeursCards() {
   );
 }
 
-export default ValeursCards;
+export default Remerciements;

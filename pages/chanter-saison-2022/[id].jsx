@@ -1,5 +1,6 @@
 import React from "react";
 import { songs } from "../../data/dataSaison";
+import Footer from "../../layout/footer/Footer";
 
 export const getStaticProps = async ({ params }) => {
   return {
@@ -113,6 +114,7 @@ const Song = ({ song }) => {
           </div>
         ) : null}
       </div>
+      <Footer />
     </div>
   );
 };
