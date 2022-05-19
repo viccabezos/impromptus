@@ -4,13 +4,14 @@ import pops from "../../public/images/pops.jpg";
 
 function Presentation() {
   return (
-    <div data-theme="mytheme" className="bg-secondary py-20 md:px-20 mt-28">
+    <div data-theme="mytheme" className="bg-secondary py-20 md:px-20 ">
       <div class="md:px-10 flex flex-col lg:flex-row  md:gap-5  md:py-5 lg:flex shadow-xl bg-white text-justify">
         <figure className="lg:w-1/3 py-5 px-10 lg:px-0">
           <Image src={pops} alt="concert" />
         </figure>
         <div class="px-10 lg:w-2/3 py-5 flex flex-col space-y-4 lg:px-0 ">
-          <h2 class="text-3xl text-left">
+          <h2 class="text-3xl text-left">Presentation:</h2>
+          <h2 class="text-2xl text-left">
             Bienvenue à tous chanteurs de tout horizon!
           </h2>
 

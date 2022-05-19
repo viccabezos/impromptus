@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div
       data-theme="mytheme"
-      className="hero min-h-min bg-white hero-overlay relative"
+      className="hero min-h-min h-screen bg-white hero-overlay relative"
     >
       <Image
         src={Hoss}

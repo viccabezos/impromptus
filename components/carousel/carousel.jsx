@@ -7,7 +7,7 @@ import groupe5 from "../../public/images/groupe5.jpg";
 import Image from "next/image";
 function Carousel() {
   return (
-    <div className="bg-secondary  justify-center items-center flex ">
+    <div className="justify-center items-center flex">
       <div className="carousel w-auto h-96">
         <div
           id="slide1"

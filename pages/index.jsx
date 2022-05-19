@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Remerciements from "../components/cards/Remerciements";
-import Carousel from "../components/carousel/carousel";
+import Carousel2 from "../components/carousel/carousel2";
 import Hero from "../components/hero/Hero";
 import Presentation from "../components/hero/Presentation";
 import Team from "../components/team/Team";
@@ -18,7 +18,8 @@ export default function Home() {
         <Hero />
         <Team />
         <Remerciements />
-        <Carousel />
+
+        <Carousel2 />
         <Presentation />
         <Footer />
       </div>
