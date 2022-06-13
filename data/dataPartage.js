@@ -309,7 +309,7 @@ export const songs = [
       "adaptation de la chanson traditionnelle The Water Is Wide. Cette chanson est consacrée à la guerre civile qu'il y eut entre Irlande du Nord (avec les protestants) et l'Irlande du Sud (avec les catholiques). Renaud essaie ici de convaincre les gens de s'entendre, de chanter et de boire ensemble, que l'oranger, l'arbre de la liberté, est planté par des hommes et que cela ne sert à rien de se disputer pour une histoire de religion.",
   },
   {
-    number: "15",
+    number: 15,
     title: "Non non rien à Changé",
     artist: " les Poppys",
     langue: "Francais",
@@ -392,24 +392,6 @@ export const songs = [
         ],
       },
     ],
-    traduction: [
-      {
-        strophes: [
-          {
-            strophe: [
-              {
-                verse:
-                  "Hegoak, Les ailes Si je lui avais coupé les ailes Il aurait été à moi Il ne serait pas parti",
-              },
-              { verse: "Oui mais voilà,Il n’aurait plus été un oiseau" },
-              { verse: "Oui mais moi,C’était l’oiseau que j’aimais" },
-            ],
-          },
-        ],
-      },
-    ],
-    description:
-      "Txoria Txori, plus connu sous le nom de « Hegoak » est un poème en langue basque écrit par Joxean Artze. Véritable ode à la liberté et à l’amour, le poème est chanté pour la première fois à la fin des années soixante par Mikel Laboa.",
   },
   {
     number: "16",
@@ -895,11 +877,10 @@ export const songs = [
           { verse: "Pour qu'il ne puisse plus servir à personne" },
         ],
       },
-      { strophe: [] },
+
       {
         strophe: [{ refrain: "Refrain" }],
       },
-      {},
     ],
   },
   {
@@ -1372,14 +1353,14 @@ export const songs = [
     langue: "anglais",
     strophes: [
       {
-        srophe: [
+        strophe: [
           { verse: "Here's to you, Nicola and Bart" },
           { verse: "Rest forever here in our hearts" },
           { verse: "The last and final moment is yours" },
           { verse: "That agony is your triumph" },
         ],
       },
-      { srophe: [{ verse: "La la La la La la La la BIS X 4" }] },
+      { strophe: [{ verse: "La la La la La la La la BIS X 4" }] },
     ],
   },
 
