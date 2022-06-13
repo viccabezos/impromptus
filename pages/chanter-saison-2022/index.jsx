@@ -1,5 +1,6 @@
 import React from "react";
-import Card from "../../components/cards/Card";
+import CardSaison from "../../components/cards/CardSaison";
+import Card from "../../components/cards/CardSaison";
 import HeroSaison2022 from "../../components/hero/HeroSaison2022";
 import { songs } from "../../data/dataSaison";
 import Footer from "../../layout/footer/Footer";
@@ -22,12 +23,12 @@ export default function Chanter({ songsList }) {
       <div></div>
       <div className="flex flex-col items-center pb-20 gap-3 bg-primary/80">
         {songsList.map((song) => (
-          <Card {...song} id={song.number} key={song.id} />
+          <CardSaison {...song} id={song.number} key={song.id} />
         ))}
       </div>
       <div className="p-5 flex flex-col justify-center items-center ">
         <button className="btn btn-secondary text-white shadow-md sm:w-1/2">
-          <a href="/chanter-entre-amis">CHANSONS entre amis</a>
+          <a href="/chanter-saison-2022">CHANSONS entre amis</a>
         </button>
       </div>
       <Footer />

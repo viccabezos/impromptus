@@ -5,102 +5,201 @@ export const songs = [
     artist: "Lucienne Delyle",
     video: "",
     langue: "francais",
-    verses: [
+    strophes: [
       {
-        verse:
-          "Je ne sais pourquoi j'allais danser A Saint-Jean, au musette, Mais il a fallu d’un seul baiser Pour que mon cœur soit prisonnier",
+        strophe: [
+          { verse: "Je ne sais pourquoi j'allais danser" },
+          { verse: "A Saint-Jean, au musette," },
+          { verse: "Mais il a fallu d’un seul baiser" },
+          { verse: "Pour que mon cœur soit prisonnier" },
+        ],
       },
       {
-        verse:
-          "Comment ne pas perdre la tête, Serrée par des bras audacieux. Car l'on croit toujours Aux doux mots d'amour  Quand ils sont dits avec les yeux",
+        strophe: [
+          { refrain: "Refrain" },
+          { refrain: "Comment ne pas perdre la tête," },
+          { refrain: "Serrée par des bras audacieux." },
+          { refrain: "Car l'on croit toujours Aux doux mots d'amour" },
+          { refrain: "Quand ils sont dits avec les yeux" },
+          { refrain: "Moi, qui l'aimais tant," },
+          { refrain: "Je le trouvais le plus beau de Saint-Jean" },
+          { refrain: "Je restais grisée, sans volonté, sous ses baisers." },
+        ],
       },
       {
-        verse:
-          "Moi, qui l'aimais tant, Je le trouvais le plus beau de Saint-Jean Je restais grisée, sans volonté, sous ses baisers",
+        strophe: [
+          { verse: "Sans plus réfléchir, je lui donnais" },
+          { verse: "Le meilleur de mon être" },
+          { verse: "Beau parleur chaque fois qu'il mentait," },
+          { verse: "Je le savais, mais je l'aimais." },
+          { refrain: "Refrain" },
+        ],
       },
       {
-        verse:
-          "Sans plus réfléchir, je lui donnais Le meilleur de mon être Beau parleur chaque fois qu'il mentait, Je le savais, mais je l'aimais",
-      },
-
-      {
-        verse: "Refrain",
-      },
-      {
-        verse:
-          "Mais hélas, à Saint-Jean comme ailleurs Un serment n'est qu'un leurre J'étais folle de croire au bonheur, Et de vouloir garder son cœur.",
+        strophe: [
+          { verse: "Mais hélas, à Saint-Jean comme ailleurs" },
+          { verse: "Un serment n'est qu'un leurre" },
+          { verse: "J'étais folle de croire au bonheur," },
+          { verse: "Et de vouloir garder son cœur." },
+        ],
       },
       {
-        verse:
-          "Comment ne pas perdre la tête, Serrée par des bras audacieux Car l'on croit toujours Aux doux mots d'amour  Quand ils sont dits avec les yeux",
+        strophe: [
+          { refrain: "Comment ne pas perdre la tête," },
+          { refrain: "Serrée par des bras audacieux." },
+          { refrain: "Car l'on croit toujours Aux doux mots d'amour" },
+          { refrain: "Quand ils sont dits avec les yeux" },
+          { refrain: "Moi, qui l'aimais tant," },
+          { refrain: "Mon bel amour, mon amant de Saint-Jean," },
+          {
+            refrain:
+              "Il ne m'aime plus, C'est du passé, N'en parlons plus. BIS",
+          },
+        ],
       },
-      {
-        verse:
-          "Moi, qui l'aimais tant, Mon bel amour, mon amant de Saint-Jean, Il ne m'aime plus, C'est du passé, N'en parlons plus.  BIS Refrain entier plus dernière phras",
-      },
+      { strophe: [{ refrain: "BIS refrain entier plus dernière phrase" }] },
     ],
   },
+
   {
     number: 2,
     title: "Bella ciao",
     artist: "The mondina workers",
     video: "",
     langue: "Italien",
-    verses: [
+    strophes: [
       {
-        verse:
-          "Una mattina mi sono alzato O bella ciao, bella ciao, bella ciao, ciao, ciao Una mattina mi sono azalto E ho trovato l'invasor",
+        strophe: [
+          { verse: "Una mattina mi son svegliato" },
+          { verse: "O bella ciao, bella ciao, bella ciao, ciao, ciao" },
+          { verse: "Una mattina mi son Svegliato" },
+          { verse: "E ho trovato l'invasor" },
+        ],
       },
       {
-        verse:
-          "O partigiano, portami via O bella ciao, bella ciao, bella ciao, ciao, ciao O partigiano, portami via Ché mi sento di morir",
+        strophe: [
+          { verse: "O partigiano, portami via" },
+          { verse: "O bella ciao, bella ciao, bella ciao, ciao, ciao" },
+          { verse: "O partigiano, portami via" },
+          { verse: "Ché mi sento di morir" },
+        ],
       },
       {
-        verse:
-          "E se io muoio da partigiano O bella ciao, bella ciao, bella ciao, ciao, ciao E se io muoio da partigiano Tu mi devi seppellir",
+        strophe: [
+          { verse: "E se muoio da partigiano" },
+          { verse: "O bella ciao, bella ciao, bella ciao, ciao" },
+          { verse: "E se muoio da partigiano" },
+          { verse: "Tu mi devi seppellir" },
+        ],
       },
       {
-        verse:
-          "E seppellire lassù in montagna O bella ciao, bella ciao, bella ciao, ciao, ciao E seppellire lassù in montagna Sotto l'ombra di un bel fior",
+        strophe: [
+          { verse: "E seppellire lassù in montagna" },
+          { verse: "O bella ciao, bella ciao, bella ciao, ciao, ciao" },
+          { verse: "E seppellire lassù in montagna" },
+          { verse: "Sotto l'ombra di un bel fior" },
+        ],
       },
       {
-        verse:
-          "Tutte le genti che passeranno O bella ciao, bella ciao, bella ciao, ciao, ciao E le genti che passeranno Mi diranno 'che bel fior'",
-      },
-      {
-        verse:
-          "È questo il fiore del partigiano O bella ciao, bella ciao, bella ciao, ciao, ciao È questo il fiore del partigiano Morto per la libertà",
-      },
-      {
-        verse: "È questo il fiore del partigiano Morto per la libertà",
+        strophe: [
+          { verse: "E le genti che passeran" },
+          { verse: "O bella ciao, bella ciao, bella ciao, ciao, ciao" },
+          { verse: "E le genti che passeran" },
+          { verse: "Mi diran: O che bel fior!" },
+          { verse: "O bella ciao, bella ciao, bella ciao, ciao, ciao, Ciao" },
+        ],
       },
     ],
+    traduction: [
+      {
+        strophe: [
+          { verse: "Un matin, je me suis réveillé," },
+          { verse: "O bella ciao, bella ciao, bella ciao ciao ciao," },
+          { verse: "Un matin, je me suis réveillé," },
+          { verse: "Et j'ai trouvé l'envahisseur." },
+        ],
+      },
+      {
+        strophe: [
+          { verse: "Hé ! partisan emmène-moi," },
+          { verse: "Car je me sens prêt à mourir." },
+        ],
+      },
+      {
+        strophe: [
+          { verse: "Et si je meurs en partisan," },
+          { verse: "Il faudra que tu m'enterres." },
+        ],
+      },
+      {
+        strophe: [
+          { verse: "Que tu m'enterres sur la montagne," },
+          { verse: "À l'ombre d'une belle fleur." },
+        ],
+      },
+      {
+        strophe: [
+          { verse: "Et les gens qui passeront," },
+          { verse: "Me diront « Quelle belle fleur »." },
+        ],
+      },
+      {
+        strophe: [
+          { verse: "C'est la fleur du partisan," },
+          { verse: "Mort pour la liberté." },
+        ],
+      },
+    ],
+
     phonetique: [
-      { title: "Bella Ciao (phonétique)" },
       {
-        verse:
-          "Una matina Mi son'aldzato O bella tchao, bella tchao, bella  tchao, tchao, tchao Una matina Mi son'aldzato É o trovato l'in’vasor.",
+        strophe: [
+          { verse: "Una matina Mi son'aldzato" },
+          { verse: "O bella tchao, bella tchao, bella tchao, tchao, tchao" },
+          { verse: "Una matina Mi son'aldzato" },
+          { verse: "É o trovato l'in’vasor" },
+        ],
       },
       {
-        verse:
-          "O partidjano Porta mi via O bella tchao, bella tchao, bella  tchao, tchao, tchao O partidjano Porta mi via Ké mi sento di mori",
+        strophe: [
+          { verse: "O partidjano Porta mi via" },
+          { verse: "O bella tchao, bella tchao, bella tchao, tchao, tchao" },
+          { verse: "O partidjano Porta mi via" },
+          { verse: "Ké mi sento di morir." },
+        ],
       },
       {
-        verse:
-          "É sé io muoio Da partidjano  O bella tchao, bella tchao, bella  tchao, tchao, tchao E sé io muoio Da partidjano  Tu mi dévi sépélir",
-      },
-      { verse: "solo musicien" },
-      {
-        verse:
-          "Mi sépéliraï la suine in montagnO bella tchao, bella tchao, belltchao, tchao, tchaMi sépéliraï la suine in montagnSoto l'ombra d'oun bel fior.",
-      },
-      {
-        verse:
-          "Toutté lé dgenté Ke passéranO bella tchao, bella tchao, belltchao, tchao, tchaÉ lé dgenté Ké passéranMi dirano ké bel fior",
+        strophe: [
+          { verse: "É sé io muoio Da partidjano" },
+          { verse: "O bella tchao, bella tchao, bella tchao, tchao, tchao" },
+          { verse: "E sé io muoio Da partidjano" },
+          { verse: "Tu mi dévi sépélir." },
+        ],
       },
       {
-        verse:
-          "É couestil fioré Del partidjanO bella tchao, bella tchao, belltchao, tchao, tchaÉ couestil fioré Del partidjanMorto per la liberta BIS 2 fois",
+        strophe: [
+          { verse: "Solo musicien" },
+          { verse: "Mi sépéliraï la suine in montagna" },
+          { verse: "O bella tchao, bella tchao, bella tchao, tchao, tchao" },
+          { verse: "Mi sépéliraï la suine in montagna" },
+          { verse: "Soto l'ombra d'oun bel fior." },
+        ],
+      },
+      {
+        strophe: [
+          { verse: "Toutté lé dgenté Ke passérano" },
+          { verse: "O bella tchao, bella tchao, bella tchao, tchao, tchao" },
+          { verse: "É lé dgenté Ké passérano" },
+          { verse: "Mi dirano ké bel fior" },
+        ],
+      },
+      {
+        strophe: [
+          { verse: "É couestil fioré Del partidjano" },
+          { verse: "O bella tchao, bella tchao, bella tchao, tchao, tchao" },
+          { verse: "É couestil fioré Del partidjano" },
+          { verse: "Morto per la liberta BIS 2 fois" },
+        ],
       },
     ],
     description:
@@ -113,40 +212,91 @@ export const songs = [
     artist: "Charles Aznavour",
     video: "",
     langue: "francais",
-    verses: [
+    strophes: [
       {
-        verse:
-          "Vers les docks où le poids et l'ennui Me courbent le dos Ils arrivent le ventre alourdi De fruits les bateaux",
+        strophe: [
+          { verse: "Vers les docks où le poids et l'ennui" },
+          { verse: "Me courbent le dos" },
+          { verse: "Ils arrivent le ventre alourdi" },
+          { verse: "De fruits les bateaux" },
+        ],
       },
       {
-        verse:
-          "Ils viennent du bout du monde Apportant avec eux Des idées vagabondes Aux reflets de ciels bleus De mirages",
+        strophe: [
+          { verse: "Ils viennent du bout du monde" },
+          { verse: "Apportant avec eux" },
+          { verse: "Des idées vagabondes" },
+          { verse: "Aux reflets de ciels bleus" },
+          { verse: "De mirages" },
+        ],
       },
       {
-        verse:
-          "Traînant un parfum poivré De pays inconnus Et d'éternels étés Où l'on vit presque nus Sur les plages Moi qui n'ai connu toute ma vie Que le ciel du nord J'aimerais débarbouiller ce gris En virant de bord",
+        strophe: [
+          { verse: "Traînant un parfum poivré" },
+          { verse: "De pays inconnus" },
+          { verse: "Et d'éternels étés" },
+          { verse: "Où l'on vit presque nus" },
+          { verse: "Sur les plages" },
+        ],
       },
       {
-        verse:
-          "Emmenez-moi au bout de la terre Emmenez-moi au pays des merveilles Il me semble que la misère Serait moins pénible au soleil Bis",
+        strophe: [
+          { verse: "Moi qui n'ai connu toute ma vie" },
+          { verse: "Que le ciel du nord" },
+          { verse: "J'aimerais débarbouiller ce gris" },
+          { verse: "En virant de bord" },
+        ],
       },
       {
-        verse:
-          "Dans les bars à la tombée du jour Avec les marins Quand on parle de filles et d'amour Un verre à la main",
+        strophe: [
+          { verse: "Emmenez-moi au bout de la terre" },
+          { verse: "Emmenez-moi au pays des merveilles" },
+          { verse: "Il me semble que la misère" },
+          { verse: "Serait moins pénible au soleil " },
+        ],
       },
       {
-        verse:
-          "Je perds la notion des choses Et soudain ma pensée M'enlève et me dépose Un merveilleux été Sur la grève",
+        strophe: [
+          { verse: "Dans les bars à la tombée du jour" },
+          { verse: "Avec les marins" },
+          { verse: "Quand on parle de filles et d'amour" },
+          { verse: "Un verre à la main" },
+        ],
       },
       {
-        verse:
-          "Où je vois tendant les bras L'amour qui comme un fou Court au devant de moi Et je me pends au cou De mon rêve",
+        strophe: [
+          { verse: "Je perds la notion des choses" },
+          { verse: "Et soudain ma pensée" },
+          { verse: "M'enlève et me dépose" },
+          { verse: "Un merveilleux été" },
+          { verse: "Sur la grève" },
+        ],
       },
       {
-        verse:
-          "Quand les bars ferment, que les marins Rejoignent leur bord Moi je rêve encore jusqu'au matin Debout sur le port",
+        strophe: [
+          { verse: "Où je vois tendant les bras" },
+          { verse: "L'amour qui comme un fou" },
+          { verse: "Court au devant de moi" },
+          { verse: "Et je me pends au cou" },
+          { verse: "De mon rêve" },
+        ],
       },
-      { verse: "(Bis 2 fois), lalalalalal..." },
+      {
+        strophe: [
+          { verse: "Quand les bars ferment, que les marins" },
+          { verse: "Rejoignent leur bord" },
+          { verse: "Moi je rêve encore jusqu'au matin" },
+          { verse: "Debout sur le port" },
+        ],
+      },
+      {
+        strophe: [
+          { verse: "Emmenez-moi au bout de la terre" },
+          { verse: "Emmenez-moi au pays des merveilles" },
+          { verse: "Il me semble que la misère" },
+          { verse: "Serait moins pénible au soleil Bis X2  +lalalalalal" },
+        ],
+      },
     ],
   },
   {
@@ -155,36 +305,116 @@ export const songs = [
     artist: "Brassens",
     video: "",
     langue: "francais",
-    verses: [
+    strophes: [
       {
-        verse:
-          "Non, ce n'était pas le radeau De la Méduse, ce bateau Qu'on se le dise au fond des ports Dise au fond des ports Il naviguait en père peinard Sur la grand-mare des canards Et s'appelait les Copains d'abord Les Copains d'abord",
+        strophe: [
+          { verse: "Non, ce n'était pas le radeau" },
+          { verse: "De la Méduse, ce bateau" },
+          { verse: "Qu'on se le dise au fond des ports" },
+          { verse: "Dise au fond des ports" },
+          { verse: "Il naviguait en père peinard" },
+          { verse: "Sur la grand-mare des canards" },
+          { verse: "Et s'appelait les Copains d'abord" },
+          { verse: "Les Copains d'abord" },
+        ],
       },
       {
-        verse:
-          "Ses fluctuat nec mergitur C'était pas d'la littérature N'en déplaise aux jeteurs de sort Aux jeteurs de sort Son capitaine et ses matelots N'étaient pas des enfants d'salauds Mais des amis franco de port Des copains d'abord",
+        strophe: [
+          { verse: "Ses fluctuat nec mergitur" },
+          { verse: "C'était pas d'la littérature" },
+          { verse: "N'en déplaise aux jeteurs de sort" },
+          { verse: "Aux jeteurs de sort" },
+          { verse: "Son capitaine et ses matelots" },
+          { verse: "N'étaient pas des enfants d'salauds" },
+          { verse: "Mais des amis franco de port" },
+          { verse: "Des copains d'abord" },
+        ],
       },
       {
-        verse:
-          "C'était pas des amis de luxe Des petits Castor et Pollux Des gens de Sodome et Gomorrhe Sodome et Gomorrhe C'était pas des amis choisis Par Montaigne et La Boétie Sur le ventre ils se tapaient fort Les copains d'abord, Lalalalala...",
+        strophe: [
+          { verse: "C'était pas des amis de luxe" },
+          { verse: "Des petits Castor et Pollux" },
+          { verse: "Des gens de Sodome et Gomorrhe" },
+          { verse: "Sodome et Gomorrhe" },
+          { verse: "C'était pas des amis choisis" },
+          { verse: "Par Montaigne et La Boétie" },
+          { verse: "Sur le ventre ils se tapaient fort" },
+          { verse: "Les copains d'abord" },
+        ],
       },
       {
-        verse:
-          "C'était pas des anges non plus L'Évangile, ils l'avaient pas lu Mais ils s'aimaient toutes voiles dehors Toutes voiles dehors Jean, Pierre, Paul et compagnie C'était leur seule litanie Leur Credo, leur Confiteor ",
+        strophe: [{ verse: "Lalalalala  " }],
       },
       {
-        verse:
-          "Aux copains d'abord Au moindre coup de Trafalgar C'est l'amitié qui prenait l'quart C'est elle qui leur montrait le nord Leur montrait le nord Et quand ils étaient en détresse Qu'leurs bras lançaient des S.O.S. On aurait dit les sémaphores Les copains d'abord",
+        strophe: [
+          { verse: "C'était pas des anges non plus" },
+          { verse: "L'Évangile, ils l'avaient pas lu" },
+          { verse: "Mais ils s'aimaient toutes voiles dehors" },
+          { verse: "Toutes voiles dehors" },
+          { verse: "Jean, Pierre, Paul et compagnie" },
+          { verse: "C'était leur seule litanie" },
+        ],
       },
       {
-        verse:
-          "Au rendez-vous des bons copains Y avait pas souvent de lapins Quand l'un d'entre eux manquait à bord C'est qu'il était mort Oui, mais jamais, au grand jamais Son trou dans l'eau n'se refermait Cent ans après, coquin de sort Il manquait encore, Lalalalala...",
+        strophe: [
+          { verse: "Leur Credo, leur Confiteor" },
+          { verse: "Aux copains d'abord" },
+        ],
       },
       {
-        verse:
-          "Des bateaux j'en ai pris beaucoup Mais le seul qu'ait tenu le coup Qui n'ai jamais viré de bord Mais viré de bord Naviguait en père peinard Sur la grand-mare des canards Et s'appelait les Copains d'abord Les Copains d'abor ",
+        strophe: [
+          { verse: "Au moindre coup de Trafalgar" },
+          { verse: "C'est l'amitié qui prenait l'quart" },
+          { verse: "C'est elle qui leur montrait le nord" },
+          { verse: "Leur montrait le nord" },
+          { verse: "Et quand ils étaient en détresse" },
+          { verse: "Qu'leurs bras lançaient des S.O.S." },
+          { verse: "On aurait dit les sémaphores" },
+          { verse: "Les copains d'abord" },
+        ],
       },
-      { verse: "FINAL (BIS) Lalalala...." },
+      {
+        strophe: [
+          { verse: "Au rendez-vous des bons copains" },
+          { verse: "Y' avait pas souvent de lapins" },
+          { verse: "Quand l'un d'entre eux manquait à bord" },
+          { verse: "C'est qu'il était mort" },
+          { verse: "Oui, mais jamais, au grand jamais" },
+          { verse: "Son trou dans l'eau n'se refermait" },
+          { verse: "Cent ans après, coquin de sort" },
+          { verse: "Il manquait encore" },
+        ],
+      },
+      {
+        strophe: [{ verse: "Lalalalala" }],
+      },
+      {
+        strophe: [
+          { verse: "Des bateaux j'en ai pris beaucoup" },
+          { verse: "Mais le seul qu'ait tenu le coup" },
+          { verse: "Qui n'ai jamais viré de bord" },
+          { verse: "Mais viré de bord" },
+          { verse: "Naviguait en père peinard" },
+          { verse: "Sur la grand-mare des canards" },
+          { verse: "Et s'appelait les Copains d'abord" },
+          { verse: "Les Copains d'abord" },
+        ],
+      },
+      {
+        strophe: [
+          { verse: "bis Des bateaux j'en ai pris beaucoup" },
+          { verse: "Mais le seul qu'ait tenu le coup" },
+          { verse: "Qui n'ai jamais viré de bord" },
+          { verse: "Mais viré de bord" },
+          { verse: "Naviguait en père peinard" },
+          { verse: "Sur la grand-mare des canards" },
+          { verse: "Et s'appelait les Copains d'abord" },
+          { verse: "Les Copains d'abord" },
+        ],
+      },
+      {
+        strophe: [{ verse: "FINAL LALALALA" }],
+      },
     ],
   },
   {
@@ -193,28 +423,51 @@ export const songs = [
     artist: "Joxean Artze",
     video: "",
     langue: "basque",
-    verses: [
-      { verse: "Huuuuuuuuuuuh (4 fois)" },
+    strophes: [
+      { strophe: [{ verse: "Huuuuuuuuuuuh 4X" }] },
       {
-        verse:
-          "Hegoak ebaki banizkio Neuria izango zen Ez zuen alde egingo Bis",
+        strophe: [
+          { verse: "Hegoak ebaki banizkio" },
+          { verse: "Neuria izango zen" },
+          { verse: "Ez zuen alde egingo Bis" },
+        ],
       },
       {
-        verse:
-          "Bainan horrela Ez zen gehiago txoria izango. (Bis) Eta nik, xoria nuen maite Eta nik eta nik, xoria nuen maite Lala lala lala lala, lala etc Oh oh oh oh oh (3 Fois)",
+        strophe: [
+          { verse: "Bainan horrela" },
+          { verse: "Ez zen gehiago txoria izango. bis" },
+          { verse: "Eta nik," },
+          { verse: "xoria nuen maite" },
+          { verse: "Eta nik eta nik," },
+          { verse: "xoria nuen maite" },
+          { verse: "Lala lala lala lala, lala etc" },
+          { verse: "Oh oh oh oh oh 3 fois" },
+        ],
       },
       {
-        verse:
-          "Bainan horrela Ez zen gehiago txoria izango. (Bis) Eta nik, xoria nuen maite Eta nik eta nik, xoria nuen maite Lala lala lala lala, lala (Bis) Oh oh oh oh (4fois)",
+        strophe: [
+          { verse: "Bainan horrela" },
+          { verse: "Ez zen gehiago txoria izango. bis" },
+          { verse: "Eta nik," },
+          { verse: "xoria nuen maite" },
+          { verse: "Eta nik eta nik," },
+          { verse: "xoria nuen maite" },
+          { verse: "Lala lala lala lala, lala Bis X2" },
+          { verse: "Oh oh oh oh 4fois" },
+        ],
       },
     ],
     traduction: [
       {
-        verse:
-          "Hegoak, Les ailes Si je lui avais coupé les ailes Il aurait été à moi Il ne serait pas parti",
+        strophe: [
+          {
+            verse:
+              "Hegoak, Les ailes Si je lui avais coupé les ailes Il aurait été à moi Il ne serait pas parti",
+          },
+          { verse: "Oui mais voilà,Il n’aurait plus été un oiseau" },
+          { verse: "Oui mais moi,C’était l’oiseau que j’aimais" },
+        ],
       },
-      { verse: "Oui mais voilà,Il n’aurait plus été un oiseau" },
-      { verse: "Oui mais moi,C’était l’oiseau que j’aimais" },
     ],
     description:
       "Txoria Txori, plus connu sous le nom de « Hegoak » est un poème en langue basque écrit par Joxean Artze. Véritable ode à la liberté et à l’amour, le poème est chanté pour la première fois à la fin des années soixante par Mikel Laboa.",
@@ -225,31 +478,62 @@ export const songs = [
     artist: "The Beatles",
     video: "",
     langue: "anglais",
-    verses: [
+    strophes: [
       {
-        verse:
-          "Hey Jude, don't make it bad. Take a sad song and make it better. Remember to let her into your heart, Then you can start to make it better.",
+        strophe: [
+          { verse: "Hey Jude, don't make it bad." },
+          { verse: "Take a sad song and make it better." },
+          { verse: "Remember to let her into your heart," },
+          { verse: "Then you can start to make it better." },
+        ],
       },
       {
-        verse:
-          "Hey Jude, don't be afraid. You were made to go out and get her. The minute you let her under your skin, Then you begin to make it better.",
+        strophe: [
+          { verse: "Hey Jude, don't be afraid." },
+          { verse: "You were made to go out and get her." },
+          { verse: "The minute you let her under your skin," },
+          { verse: "Then you begin to make it better." },
+        ],
       },
       {
-        verse:
-          "And anytime you feel the pain, hey Jude, refrain, Don't carry the world upon your shoulders. For well you know that it's a fool who plays it cool By making his world a little colder.",
+        strophe: [
+          { verse: "And anytime you feel the pain, hey Jude, refrain," },
+          { verse: "Don't carry the world upon your shoulders." },
+          { verse: "For well you know that it's a fool who plays it cool" },
+          { verse: "By making his world a little colder." },
+        ],
       },
       {
-        verse:
-          "Hey Jude, don't let me down. You have found her, now go and get her. Remember to let her into your heart, Then you can start to make it better.",
+        strophe: [
+          { verse: "Hey Jude, don't let me down." },
+          { verse: "You have found her, now go and get her." },
+          { verse: "Remember to let her into your heart," },
+          { verse: "Then you can start to make it better." },
+        ],
       },
       {
-        verse:
-          "So let it out and let it in, hey Jude, begin, You're waiting for someone to perform with. And don't you know that it's just you, hey Jude, you'll do, The movement you need is on your shoulder.",
+        strophe: [
+          { verse: "So let it out and let it in, hey Jude, begin," },
+          { verse: "You're waiting for someone to perform with." },
+          {
+            verse:
+              "And don't you know that it's just you, hey Jude, you'll do,",
+          },
+          { verse: "The movement you need is on your shoulder." },
+        ],
       },
       {
-        verse:
-          "Hey Jude, don't make it bad. Take a sad song and make it better. Remember to let her under your skin, Then you'll begin to make it Better better better better better better, oh. Na na na nananana, nannana, hey Jude... (repeat X number of times, fade)",
+        strophe: [
+          { verse: "Hey Jude, don't make it bad." },
+          { verse: "Take a sad song and make it better." },
+          { verse: "Remember to let her under your skin," },
+          { verse: "Then you'll begin to make it" },
+          { verse: "Better better better better better better, oh." },
+          { verse: "Na na na nananana, nannana, hey Jude..." },
+        ],
       },
+      { strophe: [{ verse: "(repeat X number of times, fade)" }] },
+      { strophe: [] },
     ],
   },
   {
@@ -258,29 +542,71 @@ export const songs = [
     artist: "Etxahun Iruri",
     video: "",
     langue: "francais",
-    verses: [
+    strophes: [
       {
-        verse:
-          "Jusqu'au plus petit coin de Navarre De la Soule et même du Labourd On parle de Mauléon-Licharre Avec envie et beaucoup d'amour De Mauléon, de ses superbes fêtes Si vivantes et si pleines d'entrain De ses allées de soule coquettes De son beau folklore souletin",
-      },
-      { verse: "Refrain" },
-      {
-        verse:
-          "Fa-ran-doles qui s'envolent, flambant aux feux de la Saint Jean Jolies filles qui pétillent dans les bras de leur cher galant Cavalcades, sérénades d'irrintzinas et de chansons Nuits d'ivresse, d'allégresse, tout ça c'est les fêtes de Mauléon Nuits d'ivresse, d'allégresse, tout ça c'est les fêtes de Mauléon",
-      },
-      {
-        verse:
-          "Venez donc un peu voir leur programme Vous me direz s'il est vraiment beau",
-      },
-      {
-        verse:
-          "Vous y trouverez, messieurs, mesdames L'éternelle course de chevaux De splendides parties de pelote Et un choix de danseurs souletins Fandango, dans du verre, gavotte Tout dans l'ambiance des bons copains",
+        strophe: [
+          { verse: "Jusqu'au plus petit coin de Navarre" },
+          { verse: "De la Soule et même du Labourd" },
+          { verse: "On parle de Mauléon-Licharre" },
+          { verse: "Avec envie et beaucoup d'amour" },
+          { verse: "De Mauléon, de ses superbes fêtes" },
+          { verse: "Si vivantes et si pleines d'entrain" },
+          { verse: "De ses allées de soule coquettes" },
+          { verse: "De son beau folklore souletin" },
+        ],
       },
       {
-        verse:
-          "Le soir c'est la cohue générale Du vieux pont au fin fond du plachot Faut voir un peu comment se trimballent Nos Maritxu et nos Ramuntxo Les fougueux bergers de nos montagnes Et la jeunesse des environs Ont ce soir déserté la campagne Pour goûter aux fêtes de Mauléon",
+        strophe: [
+          { refrain: "Refrain" },
+          {
+            refrain:
+              "Fa-ran-doles qui s'envolent, flambant aux feux de la Saint Jean",
+          },
+          {
+            refrain:
+              "Jolies filles qui pétillent dans les bras de leur cher galant",
+          },
+          { refrain: "Cavalcades, sérénades d'irrintzinas et de chansons" },
+          {
+            refrain:
+              "Nuits d'ivresse, d'allégresse, tout ça c'est les fêtes de Mauléon",
+          },
+          {
+            refrain:
+              "Nuits d'ivresse, d'allégresse, tout ça c'est les fêtes de Mauléon",
+          },
+        ],
       },
-      { verse: "REFRAIN (BIS 2 fois)" },
+      {
+        strophe: [
+          { verse: "Venez donc un peu voir leur programme" },
+          { verse: "Vous me direz s'il est vraiment beau" },
+          { verse: "Vous y trouverez, messieurs, mesdames" },
+          { verse: "L'éternelle course de chevaux" },
+          { verse: "De splendides parties de pelote" },
+          { verse: "Et un choix de danseurs souletins" },
+          { verse: "Fandango, dans du verre, gavotte" },
+          { verse: "Tout dans l'ambiance des bons copains" },
+        ],
+      },
+      {
+        strophe: [{ refrain: "Refrain" }],
+      },
+      {
+        strophe: [
+          { verse: "Le soir c'est la cohue générale" },
+          { verse: "Du vieux pont au fin fond du plachot" },
+          { verse: "Faut voir un peu comment se trimballent" },
+          { verse: "Nos Maritxu et nos Ramuntxo" },
+          { verse: "Les fougueux bergers de nos montagnes" },
+          { verse: "Et la jeunesse des environs" },
+          { verse: "Ont ce soir déserté la campagne" },
+          { verse: "Pour goûter aux fêtes de Mauléon" },
+        ],
+      },
+      {
+        strophe: [{ refrain: "Refrain" }, { refrain: "BIS X2" }],
+      },
     ],
   },
   {
@@ -289,61 +615,73 @@ export const songs = [
     artist: "Nadau",
     video: "",
     langue: "francais",
-    verses: [
+    strophes: [
       {
-        verse:
-          "Mon Dieu que j'en suis à mon aise Quand ma mie est auprès de moi ",
+        strophe: [
+          { verse: "Mon Dieu que j'en suis à mon aise  " },
+          { verse: "Mon Dieu que j'en suis à mon aise" },
+          { verse: "Quand ma mie est auprès de moi" },
+          { refrain: "Tout doucement je la regarde" },
+          { refrain: "Et je lui dis embrasse-moi BIS" },
+        ],
       },
       {
-        verse: "Tout doucement je la regarde Et je lui dis embrasse-moi (BIS)",
+        strophe: [
+          { verse: "Comment veux-tu que je t'embrasse" },
+          { verse: "Tout le monde dit mal de toi" },
+          { refrain: "On dit que tu pars pour l'armée" },
+          { refrain: "Dans le Piémont servir le roi BIS" },
+        ],
       },
       {
-        verse: "Comment veux-tu que je t'embrasse Tout le monde dit mal de toi",
+        strophe: [
+          { verse: "Quand tu seras dans ces campagnes" },
+          { verse: "Tu n'y penseras plus à moi" },
+          { refrain: "Tu penseras aux Italiennes" },
+          { refrain: "Qui sont bien plus belles que moi BIS" },
+        ],
       },
       {
-        verse:
-          "On dit que tu pars pour l'armée Dans le Piémont servir le roi (BIS)",
-      },
-      { verse: "Quand tu seras dans ces campagnes Tu n'y penseras plus à moi" },
-      {
-        verse:
-          "Tu penseras aux Italiennes Qui sont bien plus belles que moi (BIS)",
-      },
-      {
-        verse: "Si fait, si fait, si fait ma belle J'y penserai toujours à toi",
+        strophe: [
+          { verse: "Si fait, si fait, si fait ma belle" },
+          { verse: "J'y penserai toujours à toi" },
+          { refrain: "Je m'en ferai faire une image" },
+          { refrain: "Toute à la semblance de toi BIS" },
+        ],
       },
       {
-        verse:
-          "Je m'en ferai faire une image Toute à la semblance de toi (BIS)",
-      },
-      { verse: "Quand je serai à table boire À tous mes amis je dirai" },
-      {
-        verse:
-          "Chers camarades, venez voir Celle que mon cœur a tant aimée (BIS)",
-      },
-      {
-        verse:
-          "Je l'ai aimée, je l'aime encore Je l'aimerai tant que je vivrai",
+        strophe: [
+          { verse: "Quand je serai à table boire" },
+          { verse: "À tous mes amis je dirai" },
+          { refrain: "Chers camarades, venez voir" },
+          { refrain: "Celle que mon cœur a tant aimée BIS" },
+        ],
       },
       {
-        verse:
-          "Je l'aimerai quand j'serai mort Si c'est permis aux trépassés (BIS)",
+        strophe: [
+          { verse: "Je l'ai aimée, je l'aime encore" },
+          { verse: "Je l'aimerai tant que je vivrai" },
+          { refrain: "Je l'aimerai quand j'serai mort" },
+          { refrain: "Si c'est permis aux trépassés BIS" },
+        ],
       },
       {
-        verse:
-          "Alors j'ai versé tant de larmes Que trois moulins en ont tourné",
+        strophe: [
+          { verse: "Alors j'ai versé tant de larmes" },
+          { verse: "Que trois moulins en ont tourné" },
+          { verse: "Petits ruisseaux, grandes rivières" },
+          { verse: "Pendant trois jours ont débordé BIS" },
+        ],
       },
       {
-        verse:
-          "Petits ruisseaux, grandes rivières Pendant trois jours ont débordé (BIS)",
-      },
-      { verse: "FINAL" },
-      {
-        verse:
-          "Mon Dieu que j'en suis à mon aise Quand ma mie est auprès de moi",
-      },
-      {
-        verse: "Tout doucement je la regarde Et je lui dis embrasse-moi (BIS)",
+        strophe: [
+          { verse: "Final…" },
+
+          { verse: "Mon Dieu que j'en suis à mon aise" },
+          { verse: "Quand ma mie est auprès de moi" },
+          { verse: "Tout doucement je la regarde" },
+          { verse: "Et je lui dis embrasse-moi BIS" },
+        ],
       },
     ],
   },
@@ -354,30 +692,95 @@ export const songs = [
     artist: "Griechischer Wein",
     video: "",
     langue: "francais",
-    verses: [
+    strophes: [
       {
-        verse:
-          "Dans notre cher petit Bayonne Il est une Peña, La Peña Baiona Ils portent fièrement partout leurs foulards bleus et blancs À Dax ou à Narbonne on ne voit plus que ces gars-là Qui ont dans l'cœur leurs chers joueurs du rugby roi Chez nous à Jean Dauger ou bien partout à l'extérieur Sur tous les stades enfiévrés elle nous met tant d'ardeur C'est la Peña qui crie sa joie sur cet air-là",
+        strophe: [
+          { verse: "Dans notre cher petit Bayonne il est une Peña" },
+          { verse: "La Peña  Baiona" },
+          {
+            verse:
+              "Ils portent fièrement partout leurs foulards bleus et blancs",
+          },
+          { verse: "À Dax ou à Narbonne on ne voit plus que ces gars-là" },
+          { verse: "Qui ont dans l'cœur leurs chers joueurs du rugby roi" },
+          { verse: "Chez nous à Jean Dauger ou bien partout à l'extérieur" },
+          {
+            verse: "Sur tous les stades enfiévrés elle nous met tant d'ardeur",
+          },
+          { verse: "C'est la Peña qui crie sa joie sur cet air-là" },
+        ],
       },
-      { verse: "REFRAIN 1" },
       {
-        verse:
-          "1-Allez, allez Les bleus et blancs de l'Aviron Bayonnais C'est la Peña C'est la Peña Baiona On est tous là, allez les gars Encore une fois",
+        strophe: [
+          { refrain: "Refrain 1" },
+          { refrain: "Allez, allez" },
+          { refrain: "Les bleus et blancs de l'Aviron Bayonnais" },
+          { refrain: "C'est la Peña" },
+          { refrain: "C'est la Peña Baiona" },
+          { refrain: "On est tous là, allez les gars" },
+          { refrain: "Encore une fois" },
+        ],
       },
-      { verse: "REFRAIN 2" },
       {
-        verse:
-          "2-Allez, allez Les bleus et blancs de l'Aviron Bayonnais Jouez au ras puis écartez C'est l'essai On applaudit à vos exploits C'est gagné",
+        strophe: [
+          { refrain: "Refrain 2" },
+          { refrain: "Allez, allez " },
+          { refrain: "Les bleus et blancs de l'Aviron Bayonnais" },
+          { refrain: "Jouez au ras puis écartez" },
+          { refrain: "C'est l'essai" },
+          { refrain: "On applaudit à vos exploits" },
+          { refrain: "C'est gagné" },
+          { refrain: "Dans notre cher petit Bayonne il est une Peña" },
+          { refrain: "La Peña Baiona" },
+        ],
       },
       {
-        verse:
-          "Dans notre cher petit Bayonne il est une Peña, La Peña Baiona Ils portent fièrement partout leurs foulards bleus et blancs À Dax ou à Narbonne on ne voit plus que ces gars-là Qui ont dans l'cœur leurs chers joueurs du rugby roi Partout nos joueurs brillent, souvent la victoire est au bout Vêtus de bleu et blanc s'habillent et la fête et partout C'est la Peña qui crie sa joie sur cet air- là",
+        strophe: [
+          {
+            verse:
+              "Ils portent fièrement partout leurs foulards bleus et blancs",
+          },
+          { verse: "À Dax ou à Narbonne on ne voit plus que ces gars-là" },
+          { verse: "Qui ont dans l'cœur leurs chers joueurs du rugby roi" },
+          {
+            verse:
+              "Partout nos joueurs brillent, souvent la victoire est au bout",
+          },
+          { verse: "Vêtus de bleu et blanc s'habillent et la fête et partout" },
+          { verse: "C'est la Peña qui crie sa joie sur cet air-là" },
+          { refrain: "Refrain 1" },
+        ],
       },
-      { verse: "REFRAIN 1" },
-      { verse: "REFRAIN 2" },
+      { strophe: [{ verse: "Refrain 2 jusqu'à c'est gagné" }] },
       {
-        verse:
-          "Dans – notre- cher - petit Bayonne il est une Peña La – Peña - Baiona",
+        strophe: [
+          {
+            refrain:
+              "La la la la la  musique  Refrain 2  jusqu’à c’est gagné….",
+          },
+        ],
+      },
+      {
+        strophe: [
+          { verse: "final" },
+          { verse: "Dans – notre- cher - petit Bayonne il est une Peña" },
+          { verse: "Allez, allez" },
+          { verse: "Les bleus et blancs de l'Aviron Bayonnais" },
+          { verse: "Jouez au ras puis écartez" },
+          { verse: "C'est l'essai" },
+          { verse: "On applaudit à vos exploits" },
+          { verse: "C'est gagné" },
+        ],
+      },
+      {
+        strophe: [
+          {
+            refrain:
+              "La la la la la  musique  Refrain 2  jusqu’à c’est gagné….",
+          },
+          { verse: "Dans – notre- cher - petit Bayonne il est une Peña" },
+          { verse: "La – Peña -  Baiona" },
+        ],
       },
     ],
   },
@@ -387,63 +790,41 @@ export const songs = [
     artist: "Gaston Phebus",
     video: "",
     langue: "Occitain",
-    verses: [
+    strophes: [
       {
-        verse:
-          "Debat ma fenestro, Ya un aousélou Touto la neî canto, Canto sa cansou.",
+        strophe: [
+          {
+            verse:
+              "Debat ma fenestro, Ya un aousélou Touto la neî canto, Canto sa cansou.",
+          },
+        ],
       },
       {
-        verse:
-          "Se canto, que canto Canto pas per you Canto per ma mio Qu’es al lent de you",
+        strophe: [
+          {
+            verse:
+              "Se canto, que canto Canto pas per you Canto per ma mio Qu’es al lent de you",
+          },
+        ],
       },
       {
-        verse:
-          "Aquelos montagnos Qué tan aoutos sount, M’empatchon de bésé Mas amous oun sount",
+        strophe: [
+          {
+            verse:
+              "Aquelos montagnos Qué tan aoutos sount, M’empatchon de bésé Mas amous oun sount",
+          },
+        ],
       },
       {
-        verse:
-          "Se canto, que canto Canto pas per you Canto per ma mio Qu’es al lent de you",
+        strophe: [
+          {
+            verse:
+              "Se canto, que canto Canto pas per you Canto per ma mio Qu’es al lent de you",
+          },
+        ],
       },
     ],
     description:
       "Se canto (ou Aquéras Montanhas) est considéré depuis le XXe siècle comme l'hymne de l'Occitanie. Son origine se perd dans la nuit des temps et son auteur n'est pas connu avec certitude. ",
   },
-  // {
-  //   number: "",
-  //   title: "",
-  //   artist: "",
-  //   video: "",
-  // langue: " ",
-  //   verses: [
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //   ],
-  // },
-  // {
-  //   number: "",
-  //   title: "",
-  //   artist: "",
-  //   video: "",
-  // langue: " ",
-  //   verses: [
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //     { verse: "" },
-  //   ],
-  // },
 ];
