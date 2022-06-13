@@ -57,7 +57,7 @@ const Song = ({ song }) => {
             <span class="divider"></span>
             <div className="flex flex-col space-y-5 text-sm sm:text-base">
               {song.strophes.map(function (strophe) {
-                console.log("strophe", strophe);
+                // console.log("strophe", strophe);
                 return (
                   <div className="flex flex-col">
                     {strophe.strophe.map(function (verse) {
@@ -99,7 +99,7 @@ const Song = ({ song }) => {
 
               <div className="flex flex-col space-y-2">
                 {song.phonetique.map(function (strophe) {
-                  console.log("strophe", strophe);
+                  // console.log("strophe", strophe);
                   return (
                     <div className="flex flex-col">
                       {strophe.strophe.map(function (verse) {
@@ -134,7 +134,7 @@ const Song = ({ song }) => {
 
               <div className="flex flex-col space-y-2">
                 {song.traduction.map(function (strophe) {
-                  console.log("strophe", strophe);
+                  // console.log("strophe", strophe);
                   return (
                     <div className="flex flex-col">
                       {strophe.strophe.map(function (verse) {
